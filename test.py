@@ -1,6 +1,30 @@
 import numpy as np
 import pandas as pd
 
+# Calculator function for automatic unit conversion:
+
+
+def solarLuminosityToErgsPerS(x):
+
+    x = x.strip("S")
+
+    x = x.split("e")
+
+    luminosity = float(x[0]) * (10 ** int(x[1]))
+
+    print(luminosity)
+
+    return luminosity * 3.846e33
+
+
+def removePositiveSciNotation(x):
+
+    exponent = int(np.log10(np.abs(x)))
+    mantissa = x/10**exponent
+    y = f'{mantissa:.3f}e{exponent:.0f}'
+
+    return y
+
 
 # Column names respectively stand for:
 # Name = Name
@@ -42,7 +66,7 @@ entry1 = np.array([["J1243+0100", "Matsuoka et al. (2019b)", "https://arxiv.org/
 # What does the b in 2019b mean?
 
 entry2 = np.array([["J1120+0641", "Mortlock et al.(2011)", "https://arxiv.org/abs/1106.6088", "ULAS", " 11h20m01s.48", "+06°41′24.″3",
-                    "7.085", "0.003", "0.003", "2e9", "1.5e9", "0.7e9", "2.42e47", "2.31e46", "2.31e46", "1.2", "0.6", "0.5", "High z"]])
+                    "7.085", "0.003", "0.003", "2e9", "1.5e9", "0.7e9", "6.3e13S", "0.6e13S", "0.6e13S", "1.2", "0.6", "0.5", "High z"]])
 
 # Coordinates found from: https://arxiv.org/pdf/1311.3260 De Rosa et al. (2014)
 
@@ -51,7 +75,34 @@ arrList = entry0
 for i in range(1, 10000):
 
     try:
-        arrList = np.vstack((arrList, eval(f'entry{i}')))
+
+        currentEntry = eval(f'entry{i}')
+
+        if "S" in currentEntry[0, 12]:
+
+            currentEntry[0, 12] = solarLuminosityToErgsPerS(
+                currentEntry[0, 12])
+
+            currentEntry[0, 12] = removePositiveSciNotation(
+                currentEntry[0, 12].astype(float))
+
+        if "S" in currentEntry[0, 13]:
+
+            currentEntry[0, 13] = solarLuminosityToErgsPerS(
+                currentEntry[0, 13])
+
+            currentEntry[0, 13] = removePositiveSciNotation(
+                currentEntry[0, 13].astype(float))
+
+        if "S" in currentEntry[0, 14]:
+
+            currentEntry[0, 14] = solarLuminosityToErgsPerS(
+                currentEntry[0, 14])
+
+            currentEntry[0, 14] = removePositiveSciNotation(
+                currentEntry[0, 14].astype(float))
+
+        arrList = np.vstack((arrList, currentEntry))
 
     except:
         break
