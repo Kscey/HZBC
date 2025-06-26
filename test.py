@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Calculator function for automatic unit conversion:
+# Calculator functions for automatic unit conversion:
 
 
 def solarLuminosityToErgsPerS(x):
@@ -11,8 +11,6 @@ def solarLuminosityToErgsPerS(x):
     x = x.split("e")
 
     luminosity = float(x[0]) * (10 ** int(x[1]))
-
-    print(luminosity)
 
     return luminosity * 3.846e33
 
@@ -55,18 +53,20 @@ columnNames = ["Name", "Ref", "link", "Inst", "RA", "DEC", "z", "+dz", "-dz", "M
 # Some bolometric luminosities need to be converted from units of solar luminosities to ergs per second (1 solar luminosity = 3.846e33 ergs per second)
 
 entry0 = np.array([["J1342+0928", "Banados et al. (2018)", "https://arxiv.org/abs/1712.01860", "ULAS", "13h42m08s.097", "+09°28′38″28",
-                  "7.5413", "0.0007", "0.0007", "7.8e8", "3.3e8", "1.9e8", "1.54e47", "", "", "1.5", "0.5", "0.4", "High z"]])
+                  "7.5413", "0.0007", "0.0007", "9.1e8", "1.4e8", "1.3e8", "1.54e47", "", "", "1.1", "0.2", "0.2", "z > 7"]])
 
 # Coordinates found from: https://iopscience.iop.org/article/10.3847/2041-8213/aa943a Venemans et al. (2017)
-
+# Updated (newer) mass and Edd from: https://arxiv.org/pdf/2006.16268 Onoue et al. (2020) abstract
+# How to present? Which data to keep?
 
 entry1 = np.array([["J1243+0100", "Matsuoka et al. (2019b)", "https://arxiv.org/abs/1901.10487", "HSC", "12h43m53s.93", "+01°00′38″5",
-                  "7.07", "0.01", "0.01", "3.3e8", "2e8", "2e8", "1.4e46", "0.1e46", "0.1e46", "0.34", "0.2", "0.2", "High z"]])
+                  "7.0749", "0.001", "0.001", "3.3e8", "2e8", "2e8", "1.4e46", "0.1e46", "0.1e46", "0.34", "0.2", "0.2", "z > 7"]])
 
-# What does the b in 2019b mean?
+# What does the b in 2019b mean? Have to keep it?
+# Updated (newer) redshift from: https://arxiv.org/pdf/2104.05738### Izumi et al. (2021) pg.6
 
 entry2 = np.array([["J1120+0641", "Mortlock et al.(2011)", "https://arxiv.org/abs/1106.6088", "ULAS", " 11h20m01s.48", "+06°41′24.″3",
-                    "7.085", "0.003", "0.003", "2e9", "1.5e9", "0.7e9", "6.3e13S", "0.6e13S", "0.6e13S", "1.2", "0.6", "0.5", "High z"]])
+                    "7.085", "0.003", "0.003", "2e9", "1.5e9", "0.7e9", "6.3e13S", "0.6e13S", "0.6e13S", "1.2", "0.6", "0.5", "z > 7"]])
 
 # Coordinates found from: https://arxiv.org/pdf/1311.3260 De Rosa et al. (2014)
 
@@ -77,6 +77,8 @@ for i in range(1, 10000):
     try:
 
         currentEntry = eval(f'entry{i}')
+
+        # Converts the bolometric luminosities from units of solar luminosities to ergs per second
 
         if "S" in currentEntry[0, 12]:
 
