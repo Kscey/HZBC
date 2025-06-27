@@ -1,0 +1,4 @@
+,Name,Ref,link,Inst,RA,DEC,z,+dz,-dz,M [M_sun],+dM,-dM,L_bol [erg/s],+dL_bol,-dL_bol,f_Edd,+df_Edd,-df_Edd,comment
+0,J1342+0928,Banados et al. (2018),https://arxiv.org/abs/1712.01860,ULAS,13h42m08s.097,+09°28′38″28,7.5413,0.0007,0.0007,9.1e8,1.4e8,1.3e8,1.54e47,,,1.1,0.2,0.2,z > 7
+1,J1243+0100,Matsuoka et al. (2019b),https://arxiv.org/abs/1901.10487,HSC,12h43m53s.93,+01°00′38″5,7.0749,0.001,0.001,3.3e8,2e8,2e8,1.4e46,0.1e46,0.1e46,0.34,0.2,0.2,z > 7
+2,J1120+0641,Mortlock et al.(2011),https://arxiv.org/abs/1106.6088,ULAS, 11h20m01s.48,+06°41′24.″3,7.085,0.003,0.003,2e9,1.5e9,0.7e9,2.423e47,2.308e46,2.308e46,1.2,0.6,0.5,z > 7
