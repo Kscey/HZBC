@@ -11,7 +11,7 @@ entry0 = np.array([["J1342+0928", "Banados et al. (2018), Venemans et al. (2017)
                     "ULAS", "13h42m08s.097", "+09°28′38″28", "",
                     "7.5413", "0.0007", "0.0007", "9.1e8", "1.4e8", "1.3e8", "13.3e46", "1.1e46", "1.1e46",
                     "1.1", "0.2", "0.2", "-26.57", "0.04", "0.04", "", "", "",
-                    "150", "30", "30",
+                    "", "", "", "150", "30", "30", "",
                     "coordinates from Venemens et al. (2017), mass, Edd, M1450 from Onoue et al. (2020), SFR from Novak et al. (2019)"]])
 
 # Coordinates found from: https://iopscience.iop.org/article/10.3847/2041-8213/aa943a Venemans et al. (2017)
@@ -25,7 +25,7 @@ entry1 = np.array([["J1243+0100", "Matsuoka et al. (2019), Izumi et al. (2021)",
                     "HSC", "12h43m53s.93", "+01°00′38″5", "",
                     "7.0749", "0.001", "0.001", "3.3e8", "2e8", "2e8", "1.4e46", "0.1e46", "0.1e46",
                     "0.34", "0.2", "0.2", "-24.13", "0.08", "0.08", "", "", "",
-                    "742", "16", "16",
+                    "220", "8", "8", "742", "16", "16", "",
                     "z, SFR from Izumi et al. (2021)"]])
 
 # What does the b in 2019b mean? Have to keep it?
@@ -36,7 +36,7 @@ entry2 = np.array([["J1120+0641", "Mortlock et al.(2011), De Rosa et al. (2014),
                     "ULAS", " 11h20m01s.48", "+06°41′24.″3", "",
                     "7.0851", "0.0005", "0.0005", "1.35e9", "0.04e9", "0.04e9", "13.4e46", "1.0e46", "1.0e46",
                     "1.2", "0.6", "0.5", "-26.44", "", "", "", "", "",
-                    "", "", "",
+                    "", "", "", "", "", "", "",
                     "coordinates from De Rosa et al. (2014), z, M1450, M, L_bol from Yang et al. (2021)"]])
 
 # Coordinates found from: https://arxiv.org/pdf/1311.3260 De Rosa et al. (2014)
@@ -47,7 +47,7 @@ entry3 = np.array([["J0038-1527", "Wang et al. (2018)",
                     "DELS", "00h38m36s.10", "-15°27′23.″6", "",
                     "7.021", "0.005", "0.005", "1.33e9", "0.25e9", "0.25e9", "2.16e47", "", "",
                     "1.25", "0.19", "0.19", "-27.10", "0.08", "0.08", "", "", "",
-                    "", "", "",
+                    "", "", "", "", "", "", "",
                     ""]])
 
 entry4 = np.array([["J0252-0503", "Yang et al. (2019), Wang et al (2020)",
@@ -55,7 +55,7 @@ entry4 = np.array([["J0252-0503", "Yang et al. (2019), Wang et al (2020)",
                     "DES", "", "", "",
                     "7.0", "0.001", "0.001", "1.39e9", "1.6e8", "1.6e8", "1.3e47", "0.1e47", "0.1e47",
                     "0.7", "0.1", "0.1", "-26.50", "0.09", "0.09", "", "", "",
-                    "", "", "",
+                    "", "", "", "", "", "", "",
                     "M1450 from Yang et al. (2019)"]])
 # M1450 from: https://iopscience.iop.org/article/10.3847/1538-3881/ab1be1/meta Yang et al. (2019)
 
@@ -64,15 +64,54 @@ entry5 = np.array([["J2356+0017", "Matsuoka et al. (2019)",
                     "HSC", "", "", "",
                     "7.01", "", "", "5.5e8", "2.06e7", "1.99e7", "", "", "",
                     "", "", "", "-25.31", "0.04", "0.04", "", "", "",
-                    "", "", "",
+                    "", "", "", "", "", "", "",
                     ""]])
 
 # Currently unsure where the mass comes from
+
+entry6 = np.array([["J0313−1806", "Wang et al. (2021)",
+                    "https://arxiv.org/abs/2101.03179",
+                    "PS1+DELS+VHS+WISE", "03h13m43s.84", "-18°06′36.″4", "",
+                    "7.6423", "0.0013", "0.0013", "1.6e9", "0.4e9", "0.4e9", "1.4e47", "0.1e47", "0.1e47",
+                    "0.67", "0.14", "0.14", "-26.13", "0.05", "0.05", "", "", "",
+                    "40-240", "", "", "225", "25", "25", "",
+                    ""]])
+
+entry7 = np.array([["J1007+2115", "Yang et al. (2020)",
+                    "https://arxiv.org/abs/2006.13452",
+                    "PS1+DELS+UHS+WISE", "10h07m58.s26", "+21°15′29.″20", "",
+                    "7.5149", "0.0004", "0.0004", "1.5e9", "0.2e9", "0.2e9", "1.9e47", "0.1e47", "0.1e47",
+                    "1.06", "0.2", "0.2", "-26.66", "0.07", "0.07", "", "", "",
+                    "80-520", "", "", "700", "", "", "",
+                    ""]])
+
+entry8 = np.array([["UHZ1", "Bogdan et al. (2023), Castellano et al. (2023), Goulding et al. (2023)",
+                    "https://arxiv.org/abs/2305.15458, https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta, https://arxiv.org/pdf/2308.02750",
+                    "JWST", "0h14m16.s096", "-30°22′40.″285", "",
+                    "10.073", "0.002", "0.002", "4e7", "6e7", "3e7", "5e45", "", "",
+                    "", "", "", "", "", "", "87.7", "7.2", "7.2",
+                    "4.5", "2.9", "2.2", "4.5", "2.9", "2.2", "0.4e8",
+                    "F444W, SFR, Mstar from Castellano et al. (2023), z from Goulding et al. (2023)"]])
+
+# F444W, SFR, Mstar from: https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta Castellano et al. (2023)
+# z from: https://arxiv.org/pdf/2308.02750 Goulding et al. (2023)
+
+entry9 = np.array([["GHZ9", "Kovacs et al. (2024), Castellano et al. (2023), Atek et al. (2023)",
+                    "https://arxiv.org/abs/2403.14745",
+                    "JWST", "00h13m54.s90", "-30°20′43.″93", "",
+                    "10.37", "0.32", "1.09", "8e7", "3.7e7", "3.2e7", "1e46", "0.5e46", "0.4e46",
+                    "", "", "", "", "", "", "40.9", "3.9", "3.9",
+                    "", "", "", "", "", "", "3.3e8",
+                    "F444W, Mstar, SFR [14.4 (+15.0/-7.3)] from Castellano et al. (2023), SFR [0.56 (+0.23/-0.29)] from Atek et al. (2023)"]])
+
+# F444W, Mstar, SFR from: https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta Castellano et al. (2023)
+# SFR from: https://arxiv.org/pdf/2305.01793 Atek et al. (2023)
+
 
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
                "z", "+dz", "-dz", "M [M_sun]", "+dM", "-dM", "L_bol [erg/s]", "+dL_bol", "-dL_bol",
                "f_Edd", "+df_Edd", "-df_Edd", "M1450", "+dM1450", "-dM1450", "F444W", "+dF44W", "-dF444W",
-               "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR",
+               "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar"
                "comment"]
