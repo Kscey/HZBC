@@ -94,4 +94,4 @@ print(dataframe)
 
 dataframe.to_csv("out.csv")
 
-# Consider implementing sorting (by z), dropping duplicates
+# Consider implementing sorting (by z), dropping duplicates, adding csv for looking at review articles
