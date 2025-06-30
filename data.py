@@ -107,6 +107,69 @@ entry9 = np.array([["GHZ9", "Kovacs et al. (2024), Castellano et al. (2023), Ate
 # F444W, Mstar, SFR from: https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta Castellano et al. (2023)
 # SFR from: https://arxiv.org/pdf/2305.01793 Atek et al. (2023)
 
+entry10 = np.array([["GNz11", "Maiolino et al. (2023), Bunker et al. (2023), Oesch et al. (2016)",
+                     "https://arxiv.org/abs/2305.12492, https://arxiv.org/pdf/2302.07256, https://arxiv.org/pdf/1603.00461",
+                     "JWST", "12h36m25.s46", "+62°14′31.″4", "",
+                     "10.6", "", "", "1.6e6", "1e0.3", "1e0.3", "1.08e45", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "31", "59", "19", "31", "59", "19", "",
+                     "SFR from Bunker et al. (2023), coordinates from Oesch et al. (2016)"]])
+
+# SFR from: https://arxiv.org/pdf/2302.07256 Bunker et al. (2023)
+# Coordinates from: https://arxiv.org/pdf/1603.00461 Oesch et al. (2016)
+
+entry11 = np.array([["CEERS_1019", "Larson et al. (2023)",
+                     "https://arxiv.org/abs/2303.08918",
+                     "JWST", "215d02m07.s41", "52°53′26.″38", "",
+                     "8.679", "0.09", "0.15", "log6.95", "log0.37", "log0.37", "log45.1", "log0.2", "log0.2",
+                     "1.2", "0.5", "0.5", "", "", "", "", "", "",
+                     "30", "", "", "30", "", "", "",
+                     ""]])
+
+entry12 = np.array([["J1205−0000", "Onoue et al. (2019), Sawamura et al. (2025), Izumi et al. (2021)",
+                     "https://arxiv.org/abs/1904.07278, https://arxiv.org/pdf/2502.16858, https://iopscience.iop.org/article/10.3847/1538-4357/abd7ef",
+                     "HSC", "", "", "",
+                     "6.7230", "0.0003", "0.0003", "2.2e9", "0.2e9", "0.6e9", "", "", "",
+                     "0.16", "0.04", "0.02", "-24.56", "0.04", "0.04", "", "", "",
+                     "122", "5", "5", "528", "8", "8", "",
+                     ""]])
+
+# SFR_TIR from: https://arxiv.org/pdf/2502.16858 Sawamura et al. (2025)
+# z, SFR_CII from: https://iopscience.iop.org/article/10.3847/1538-4357/abd7ef Izumi et al. (2021)
+
+entry13 = np.array([["J2239+0207", "Onoue et al. (2019), Ishimoto et al. (2020)",
+                     "https://arxiv.org/abs/1904.07278, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "HSC", "22h39m47.s47", "+02°07′47.″5", "",
+                     "6.245", "0.008", "0.007", "1.1e9", "0.3e9", "0.2e9", "", "", "",
+                     "0.17", "0.04", "0.05", "-24.69", "0.04", "0.04", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "coordinates from Ishimoto et al. (2020)"]])
+
+# coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
+
+entry14 = np.array([["J2216−0016", "Onoue et al. (2019), Ishimoto et al. (2020)",
+                     "https://arxiv.org/abs/1904.07278, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "HSC", "22h16m44.s47", "−00°16′50.″1", "",
+                     "6.109", "0.007", "0.008", "0.7e9", "0.14e9", "0.23e9", "", "", "",
+                     "0.15", "0.05", "0.03", "-23.82", "0.04", "0.04", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "coordinates from Ishimoto et al. (2020)"]])
+
+# coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
+
+entry15 = np.array([["J1208−0200", "Onoue et al. (2019), Ishimoto et al. (2020)",
+                     "https://arxiv.org/abs/1904.07278, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "HSC", "12h08m59.s23", "−02°00′34.″8", "",
+                     "6.144", "0.008", "0.01", "0.71e9", "0.24e9", "0.52e9", "", "", "",
+                     "0.24", "0.18", "0.08", "-24.73", "0.02", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "coordinates from Ishimoto et al. (2020)"]])
+
+# coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
+
+entry16 = np.array([["J0100+2802", "Wu et al Nature 518, 512 (2015)",
+                     "https://arxiv.org/abs/1502.07418", "SDSS", "6.3", "0.01", "0.01",
+                     "12.4e9", "1.9e9", "1.9e9", "", "", "", "0.99", "0.22", "0.22"]])
 
 columnNames = ["Name", "Ref",
                "Link",

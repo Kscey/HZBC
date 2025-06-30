@@ -1,5 +1,13 @@
 import numpy as np
 
+def removeSciNotion(x):
+
+    exponent = int(np.log10(np.abs(x)))
+    mantissa = x/10**exponent
+    y = f'{mantissa:.3f}e{exponent:.0f}'
+
+    return y
+
 # Calculator function for automatic unit conversion:
 
 def solarLuminosityToErgsPerS(x):
@@ -12,11 +20,7 @@ def solarLuminosityToErgsPerS(x):
 
     y = float(luminosity * 3.846e33)
 
-    exponent = int(np.log10(np.abs(y)))
-    mantissa = y/10**exponent
-    z = f'{mantissa:.3f}e{exponent:.0f}'
-
-    return z
+    return removeSciNotion(y)
 
 # Calculator function for estimating black hole mass from M1450:
 
@@ -24,8 +28,31 @@ def estimateMassBlackHole(x):
 
     mass = 10 ** ((-float(x) -3.459) / 2.5)
 
-    exponent = int(np.log10(np.abs(mass)))
-    mantissa = mass/10**exponent
-    y = f'{mantissa:.3f}e{exponent:.0f}'
+    return removeSciNotion(mass)
+
+def logToValue(x):
+
+    x = x.strip("log")
+
+    value = 10 ** float(x)
+
+    return removeSciNotion(value)
+
+def logToUpperError(x, y):
+
+    x = x.strip("log")
+    y = y.strip("log")
+
+    value = 10 ** (float(x) + float(y)) - 10 ** float(x)
+
+    return removeSciNotion(value)
     
-    return y
+def logToLowerError(x, y):
+
+    x = x.strip("log")
+    y = y.strip("log")
+
+    value = 10 ** float(x) - 10 ** (float(x) - float(y))
+
+    return removeSciNotion(value)
+
