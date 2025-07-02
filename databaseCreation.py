@@ -82,7 +82,7 @@ for i in range(1, 10000):
 
                 currentEntry[0, 12] = functions.estimateMassBlackHole(currentEntry[0, 21])
 
-        # Converts the log values and errors of BHM and L_bol to non-log values
+        # Converts the log values and errors of BHM, L_bol, Mstar to non-log values
 
         if "log" in currentEntry[0, 11]:
 
@@ -108,7 +108,9 @@ for i in range(1, 10000):
 
             currentEntry[0, 13] = functions.logToValue(currentEntry[0, 13])
 
+        if "log" in currentEntry[0, 31]:
 
+            currentEntry[0, 31] = functions.logToValue(currentEntry[0, 31])
 
         arrList = np.vstack((arrList, currentEntry))
 
