@@ -231,7 +231,7 @@ entry22 = np.array([["J1335+3533", "Eilers et al. (2018), Ishimoto et al. (2020)
 
 entry23 = np.array([["J0100+2802", "Wu et al. (2015), D'Odorico et al. (2023), Venemans et al. (2020), Mazzucchelli et al. (2023)",
                      "https://arxiv.org/abs/1502.07418, https://academic.oup.com/mnras/article/523/1/1399/7172883, https://iopscience.iop.org/article/10.3847/1538-4357/abc563, https://arxiv.org/pdf/2306.16474",
-                     "SDSS", "01h00m13.s02", "+28°02′25.″80", "87.8kpc",
+                     "SDSS", "01h00m13.s02", "+28°02′25.″80", "",
                      "6.3269", "0.0002", "0.0002", "log10.1", "log0.2", "log0.1", "log48.15", "log0.04", "log0.04",
                      "0.99", "0.22", "0.22", "-29.26", "0.20", "0.20", "", "", "",
                      "", "", "", "", "", "", "",
@@ -358,6 +358,8 @@ entry35 = np.array([["10013704", "Maiolino et al. (2024), Juodžbalis et al. (20
                      "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry36 = np.array([[]])
 
 columnNames = ["Name", "Ref",
                "Link",
