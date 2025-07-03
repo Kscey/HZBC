@@ -290,16 +290,74 @@ entry28 = np.array([["11836", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
 entry29 = np.array([["20621", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
-                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
-                      "JWST", "12h36m29.s40", "+62°17′34.″26", "",
-                      "4.682", "", "", "log7.09", "log0.35", "log0.34", "log44.24", "log0.23", "log0.19",
-                      "0.11", "0.06", "0.03", "", "", "", "", "", "",
-                      "", "", "", "", "", "", "log8.06",
-                      "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h36m29.s40", "+62°17′34.″26", "",
+                     "4.682", "", "", "log7.09", "log0.35", "log0.34", "log44.24", "log0.23", "log0.19",
+                     "0.11", "0.06", "0.03", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.06",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
+entry30 = np.array([["53757", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h37m04.s75", "+62°11′39.″16", "",
+                     "4.447", "", "", "log7.33", "log0.31", "log0.31", "log44.29", "log0.02", "log0.02",
+                     "0.07", "0.01", "0.009", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log10.18",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
 
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry31 = np.array([["61888", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h36m40.s32", "+62°13′01.″24", "",
+                     "5.874", "", "", "log7.08", "log0.33", "log0.32", "log44.46", "log0.13", "log0.10",
+                     "0.20", "0.06", "0.03", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.11",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry32 = np.array([["62309", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h36m59.s76", "+62°13′06.″06", "",
+                     "5.172", "", "", "log6.30", "log0.36", "log0.33", "log43.57", "log0.13", "log0.12",
+                     "0.15", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.12",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry33 = np.array([["73488", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h36m47.s38", "+62°10′38.″03", "",
+                     "4.133", "", "", "log7.95", "log0.30", "log0.30", "log45.45", "log0.07", "log0.05",
+                     "0.25", "0.02", "0.02", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log9.78",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry34 = np.array([["77652", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12h37m10.s38", "+62°11′56.″40", "",
+                     "5.229", "", "", "log6.62", "log0.34", "log0.32", "log44.11", "log0.04", "log0.05",
+                     "0.24", "0.09", "0.08", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log7.87",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
+
+entry35 = np.array([["10013704", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+                     "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03h32m30.s37", "-27°49′05.″12", "",
+                     "5.919", "", "", "log7.44", "log0.31", "log0.31", "log44.29", "log0.02", "log0.02",
+                     "0.055", "0.007", "0.006", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.88",
+                     "coordinates, z, mass, L_bol, f_Edd from Juodžbalis et al. (2025)"]])
+
+# coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
 columnNames = ["Name", "Ref",
                "Link",
