@@ -72,15 +72,15 @@ for i in range(1, 10000):
 
         if currentEntry[0, 10] == "" and currentEntry[0, 19] != "":
 
+            if currentEntry[0, 11] == "" and currentEntry[0, 21] != "":
+
+                currentEntry[0, 11] = functions.estimateMassUpperError(currentEntry[0, 19], currentEntry[0, 21])
+
+            if currentEntry[0, 12] == "" and currentEntry[0, 20] != "":
+
+                currentEntry[0, 12] = functions.estimateMassLowerError(currentEntry[0, 19], currentEntry[0, 20])
+
             currentEntry[0, 10] = functions.estimateMassBlackHole(currentEntry[0, 19])
-
-            if currentEntry[0, 11] == "" and currentEntry[0, 20] != "":
-
-                currentEntry[0, 11] = functions.estimateMassBlackHole(currentEntry[0, 20])
-
-            if currentEntry[0, 12] == "" and currentEntry[0, 21] != "":
-
-                currentEntry[0, 12] = functions.estimateMassBlackHole(currentEntry[0, 21])
 
         # Converts the log values and errors of BHM, L_bol, Mstar to non-log values
 

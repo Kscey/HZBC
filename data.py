@@ -1,5 +1,7 @@
 import numpy as np
 
+# Tool to help convert RA DEC coordinates: https://www.astrouw.edu.pl/~jskowron/ra-dec/?q=d++53.12654+-27.81809
+
 # Arrays are manually populated to include or amend information
 # 1a. Some bolometric luminosities need to be converted from units of solar luminosities to ergs per second (1 solar luminosity = 3.846e33 ergs per second)
 # 1b. This can be done by adding "S" to the end of the bolometric luminosity
@@ -35,16 +37,16 @@ entry2 = np.array([["J1120+0641", "Mortlock et al.(2011), De Rosa et al. (2014),
                     "https://arxiv.org/abs/1106.6088, https://arxiv.org/pdf/1311.3260, https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32",
                     "ULAS", " 11h20m01s.48", "+06°41′24.″3", "",
                     "7.0851", "0.0005", "0.0005", "1.35e9", "0.04e9", "0.04e9", "13.4e46", "1.0e46", "1.0e46",
-                    "1.2", "0.6", "0.5", "-26.44", "", "", "", "", "",
+                    "0.8", "0.1", "0.1", "-26.44", "", "", "", "", "",
                     "", "", "", "", "", "", "",
                     "coordinates from De Rosa et al. (2014), z, M1450, M, L_bol from Yang et al. (2021)"]])
 
 # Coordinates found from: https://arxiv.org/pdf/1311.3260 De Rosa et al. (2014)
-# Redshift, M1450, M, L_bol from: https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32 Yang et al. (2021)
+# Redshift, M1450, M, L_bol, f_Edd from: https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32 Yang et al. (2021)
 
 entry3 = np.array([["J0038-1527", "Wang et al. (2018)",
                     "https://arxiv.org/abs/1810.11925",
-                    "DELS", "00h38m36s.10", "-15°27′23.″6", "",
+                    "DELS", "00h38m36s.10", "-15°27′23.″06", "",
                     "7.021", "0.005", "0.005", "1.33e9", "0.25e9", "0.25e9", "2.16e47", "", "",
                     "1.25", "0.19", "0.19", "-27.10", "0.08", "0.08", "", "", "",
                     "", "", "", "", "", "", "",
@@ -52,16 +54,18 @@ entry3 = np.array([["J0038-1527", "Wang et al. (2018)",
 
 entry4 = np.array([["J0252-0503", "Yang et al. (2019), Wang et al (2020)",
                     "https://iopscience.iop.org/article/10.3847/1538-3881/ab1be1/meta, https://arxiv.org/abs/2004.10877",
-                    "DES", "", "", "",
-                    "7.0", "0.001", "0.001", "1.39e9", "1.6e8", "1.6e8", "1.3e47", "0.1e47", "0.1e47",
+                    "DES", "02h52m16.s64", "-05°03′31.″80", "",
+                    "7.02", "0.001", "0.001", "1.39e9", "1.6e8", "1.6e8", "1.3e47", "0.1e47", "0.1e47",
                     "0.7", "0.1", "0.1", "-26.50", "0.09", "0.09", "", "", "",
                     "", "", "", "", "", "", "",
-                    "M1450 from Yang et al. (2019)"]])
+                    "M1450 from Yang et al. (2019), z from Wang et al (2020)"]])
+
 # M1450 from: https://iopscience.iop.org/article/10.3847/1538-3881/ab1be1/meta Yang et al. (2019)
+# z from: https://arxiv.org/abs/2004.10877 Wang et al (2020)
 
 entry5 = np.array([["J2356+0017", "Matsuoka et al. (2019)",
                     "https://arxiv.org/abs/1908.07910",
-                    "HSC", "", "", "",
+                    "HSC", "23h56m46.s33", "+00°17′47.″30", "",
                     "7.01", "", "", "5.5e8", "2.06e7", "1.99e7", "", "", "",
                     "", "", "", "-25.31", "0.04", "0.04", "", "", "",
                     "", "", "", "", "", "", "",
@@ -120,7 +124,7 @@ entry10 = np.array([["GNz11", "Maiolino et al. (2023), Bunker et al. (2023), Oes
 
 entry11 = np.array([["CEERS_1019", "Larson et al. (2023)",
                      "https://arxiv.org/abs/2303.08918",
-                     "JWST", "215d02m07.s41", "52°53′26.″38", "",
+                     "JWST", "215d02m07.s41", "+52°53′26.″38", "",
                      "8.679", "0.09", "0.15", "log6.95", "log0.37", "log0.37", "log45.1", "log0.2", "log0.2",
                      "1.2", "0.5", "0.5", "", "", "", "", "", "",
                      "30", "", "", "30", "", "", "",
@@ -128,7 +132,7 @@ entry11 = np.array([["CEERS_1019", "Larson et al. (2023)",
 
 entry12 = np.array([["J1205−0000", "Onoue et al. (2019), Sawamura et al. (2025), Izumi et al. (2021)",
                      "https://arxiv.org/abs/1904.07278, https://arxiv.org/pdf/2502.16858, https://iopscience.iop.org/article/10.3847/1538-4357/abd7ef",
-                     "HSC", "", "", "",
+                     "HSC", "12h05m05.s09", "-00°00′27.″90", "",
                      "6.7230", "0.0003", "0.0003", "2.2e9", "0.2e9", "0.6e9", "", "", "",
                      "0.16", "0.04", "0.02", "-24.56", "0.04", "0.04", "", "", "",
                      "122", "5", "5", "528", "8", "8", "",
@@ -167,15 +171,17 @@ entry15 = np.array([["J1208−0200", "Onoue et al. (2019), Ishimoto et al. (2020
 
 # coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
 
-entry16 = np.array([["J0100+2802", "Wu et al Nature 518, 512 (2015), Tripodi et al. (2024)",
-                     "https://arxiv.org/abs/1502.07418, https://arxiv.org/pdf/2306.01644",
-                     "SDSS", "01h00m13.s024", "+28°02′25.″790", "",
-                     "6.3", "0.01", "0.01", "12.4e9", "1.9e9", "1.9e9", "1.62e48", "", "",
+entry16 = np.array([["J0100+2802", "Wu et al. (2015), D'Odorico et al. (2023), Venemans et al. (2020), Mazzucchelli et al. (2023)",
+                     "https://arxiv.org/abs/1502.07418, https://academic.oup.com/mnras/article/523/1/1399/7172883, https://iopscience.iop.org/article/10.3847/1538-4357/abc563, https://arxiv.org/pdf/2306.16474",
+                     "SDSS", "01h00m13.s02", "+28°02′25.″80", "",
+                     "6.3269", "0.0002", "0.0002", "log10.1", "log0.2", "log0.1", "log48.15", "log0.04", "log0.04",
                      "0.99", "0.22", "0.22", "-29.26", "0.20", "0.20", "", "", "",
                      "", "", "", "", "", "", "",
-                     "coordinates from Tripodi et al. (2024)"]])
+                     "coordinates from D'Odorico et al. (2023), distance, z from Venemans et al. (2020), mass, L_bol from Mazzucchelli et al. (2023)"]])
 
-# coordinates from: https://arxiv.org/pdf/2306.01644 Tripodi et al. (2024)
+# coordinates from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
+# distance, z from: https://iopscience.iop.org/article/10.3847/1538-4357/abc563 Venemans et al. (2020)
+# mass, L_bol from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
 
 entry17 = np.array([["J158–14", "Eilers et al. (2020)",
                      "https://arxiv.org/abs/2002.01811",
@@ -229,19 +235,7 @@ entry22 = np.array([["J1335+3533", "Eilers et al. (2018), Ishimoto et al. (2020)
 
 # coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
 
-entry23 = np.array([["J0100+2802", "Wu et al. (2015), D'Odorico et al. (2023), Venemans et al. (2020), Mazzucchelli et al. (2023)",
-                     "https://arxiv.org/abs/1502.07418, https://academic.oup.com/mnras/article/523/1/1399/7172883, https://iopscience.iop.org/article/10.3847/1538-4357/abc563, https://arxiv.org/pdf/2306.16474",
-                     "SDSS", "01h00m13.s02", "+28°02′25.″80", "",
-                     "6.3269", "0.0002", "0.0002", "log10.1", "log0.2", "log0.1", "log48.15", "log0.04", "log0.04",
-                     "0.99", "0.22", "0.22", "-29.26", "0.20", "0.20", "", "", "",
-                     "", "", "", "", "", "", "",
-                     "coordinates from D'Odorico et al. (2023), distance, z from Venemans et al. (2020), mass, L_bol from Mazzucchelli et al. (2023)"]])
-
-# coordinates from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
-# distance, z from: https://iopscience.iop.org/article/10.3847/1538-4357/abc563 Venemans et al. (2020)
-# mass, L_bol from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
-
-entry24 = np.array([["954", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry23 = np.array([["954", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m36.s47", "+62°15′34.″70", "",
                      "6.759", "", "", "log7.74", "log0.31", "log0.32", "log45.24", "log0.15", "log0.17",
@@ -251,7 +245,7 @@ entry24 = np.array([["954", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry25 = np.array([["1093", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry24 = np.array([["1093", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m43.s14", "+62°13′28.″67", "",
                      "5.594", "", "", "log7.07", "log0.34", "log0.33", "log44.52", "log0.18", "log0.16",
@@ -261,7 +255,7 @@ entry25 = np.array([["1093", "Maiolino et al. (2024), Juodžbalis et al. (2025)"
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry26 = np.array([["3608", "Maiolino et al. (2024)",
+entry25 = np.array([["3608", "Maiolino et al. (2024)",
                      "https://arxiv.org/abs/2308.01230",
                      "JWST", "", "", "",
                      "5.26894", "", "", "6.60693e6", "9.242e6", "3.51664e6", "1.e44", "", "",
@@ -269,7 +263,7 @@ entry26 = np.array([["3608", "Maiolino et al. (2024)",
                      "", "", "", "", "", "", "log8.38",
                      "tentative source according to https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)"]])
 
-entry27 = np.array([["8083", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry26 = np.array([["8083", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "03h32m31.s88", "-27°48′06.″70", "",
                      "4.753", "", "", "log7.11", "log0.31", "log0.31", "log44.06", "log0.05", "log0.05",
@@ -279,7 +273,7 @@ entry27 = np.array([["8083", "Maiolino et al. (2024), Juodžbalis et al. (2025)"
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry28 = np.array([["11836", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry27 = np.array([["11836", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m52.s94", "+62°15′49.″25", "",
                      "4.409", "", "", "log7.00", "log0.32", "log0.32", "log44.20", "log0.05", "log0.05",
@@ -289,7 +283,7 @@ entry28 = np.array([["11836", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry29 = np.array([["20621", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry28 = np.array([["20621", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m29.s40", "+62°17′34.″26", "",
                      "4.682", "", "", "log7.09", "log0.35", "log0.34", "log44.24", "log0.23", "log0.19",
@@ -299,7 +293,7 @@ entry29 = np.array([["20621", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry30 = np.array([["53757", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry29 = np.array([["53757", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h37m04.s75", "+62°11′39.″16", "",
                      "4.447", "", "", "log7.33", "log0.31", "log0.31", "log44.29", "log0.02", "log0.02",
@@ -309,7 +303,7 @@ entry30 = np.array([["53757", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry31 = np.array([["61888", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry30 = np.array([["61888", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m40.s32", "+62°13′01.″24", "",
                      "5.874", "", "", "log7.08", "log0.33", "log0.32", "log44.46", "log0.13", "log0.10",
@@ -319,7 +313,7 @@ entry31 = np.array([["61888", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry32 = np.array([["62309", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry31 = np.array([["62309", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m59.s76", "+62°13′06.″06", "",
                      "5.172", "", "", "log6.30", "log0.36", "log0.33", "log43.57", "log0.13", "log0.12",
@@ -329,7 +323,7 @@ entry32 = np.array([["62309", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry33 = np.array([["73488", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry32 = np.array([["73488", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h36m47.s38", "+62°10′38.″03", "",
                      "4.133", "", "", "log7.95", "log0.30", "log0.30", "log45.45", "log0.07", "log0.05",
@@ -339,7 +333,7 @@ entry33 = np.array([["73488", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry34 = np.array([["77652", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry33 = np.array([["77652", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "12h37m10.s38", "+62°11′56.″40", "",
                      "5.229", "", "", "log6.62", "log0.34", "log0.32", "log44.11", "log0.04", "log0.05",
@@ -349,7 +343,7 @@ entry34 = np.array([["77652", "Maiolino et al. (2024), Juodžbalis et al. (2025)
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry35 = np.array([["10013704", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
+entry34 = np.array([["10013704", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "03h32m30.s37", "-27°49′05.″12", "",
                      "5.919", "", "", "log7.44", "log0.31", "log0.31", "log44.29", "log0.02", "log0.02",
@@ -359,7 +353,130 @@ entry35 = np.array([["10013704", "Maiolino et al. (2024), Juodžbalis et al. (20
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry36 = np.array([[]])
+entry35 = np.array([["GS_3073", "Ubler et al. (2023), Barchiesi et al. (2022)",
+                     "https://arxiv.org/abs/2302.06647, https://arxiv.org/pdf/2212.00038",
+                     "JWST", "03h32m18.s93", "−27◦53′02.″96", "",
+                     "5.55", "", "", "1.58489e8", "2.39618e8", "9.53936e7", "5.0e45", "1.08e46", "3.43e45",
+                     "0.25", "1.35", "0.15", "", "", "", "", "", "",
+                     "16", "14", "7", "", "", "", "",
+                     "use H-alpha for mass, use geometric mean of two method for L_bol, SFR [90 (+30/-30)] from Barchiesi et al. (2022)"]])
+
+# SFR from: https://arxiv.org/pdf/2212.00038 Barchiesi et al. (2022)
+
+entry36 = np.array([["CEERS_01244", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h20m57.s76 ", "+53◦02′09.″08", "",
+                     "4.478", "", "", "3.2e7", "0.3e7", "0.2e7", "1.9e45", "3.8e45", "0.6e45",
+                     "0.46", "1.04", "0.16", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry37 = np.array([["GLASS_160133", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "00h14m19.s27", "−30◦25′27.″8", "",
+                     "4.015", "", "", "2.3e6", "0.1e6", "0.1e6", "1.1e45", "6.1e45", "0.9e45",
+                     "3.68", "21.21", "2.84", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry38 = np.array([["GLASS_150029", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "00h14m18.s52", "−30◦25′21.″3", "",
+                     "4.583", "", "", "3.7e6", "0.2e6", "0.3e6", "9.1e44", "13.8e44", "7.1e44",
+                     "1.89", "3.31", "1.49", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry39 = np.array([["CEERS_00746", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h19m14.s19", "+52◦52′06.″05", "",
+                     "5.624", "", "", "5.8e7", "1.5e7", "1.3e7", "1.1e46", "0.1e46", "0.2e46",
+                     "1.47", "0.60", "0.52", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry40 = np.array([["CEERS_01665", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h20m42.s77", "+53◦03′33.″07", "",
+                     "4.483", "", "", "1.9e7", "0.8e7", "0.5e7", "4.8e45", "7.2e45", "3.6e45",
+                     "1.93", "4.61", "1.59", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry41 = np.array([["CEERS_00672", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h19m33.s52", "+52◦49′58.″07", "",
+                     "5.666", "", "", "5.0e7", "1.7e7", "1.3e7", "4.3e45", "0.4e45", "1.4e45",
+                     "0.65", "0.31", "0.33", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry42 = np.array([["CEERS_02782", "Harikane et al. (2023)",
+                    "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h19m17.s63", "+52◦49′49.″00", "",
+                     "5.241", "", "", "4.2e7", "1.2e7", "1.0e7", "2.8e45", "2.3e45", "1.4e45",
+                     "0.51", "0.71", "0.32", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry43 = np.array([["CEERS_00397", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h19m20.s69", "+52◦52′57.″07", "",
+                     "6.000", "", "", "1.0e7", "0.8e7", "0.5e7", "2.8e45", "14.2e45", "2.2e45",
+                     "2.02", "20.68", "1.80", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry44 = np.array([["CEERS_00717", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h20m19.s54", "+52◦58′19.″09", "",
+                     "6.936", "", "", "9.8e7", "4.4e7", "3.2e7", "7.1e44", "51.8e44", "4.3e44",
+                     "0.06", "0.63", "0.04", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry45 = np.array([["CEERS_01236", "Harikane et al. (2023)",
+                     "https://arxiv.org/pdf/2303.11946",
+                     "JWST", "14h20m34.s87", "+52◦58′02.″02", "",
+                     "4.484", "", "", "1.8e7", "1.0e7", "0.6e7", "1.8e44", "2.6e44", "0.5e44",
+                     "0.08", "0.20", "0.04", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry46 = np.array([["J172+18", "Banados et al. (2021)",
+                     "https://www.mpg.de/16498963/mpia-pr_banados_quasar_2021_preprint.pdf",
+                     "PSO", "11h29m25.s37", "+18◦46′24.″29", "",
+                     "6.823", "0.003", "0.001", "2.9e8", "0.7e8", "0.6e8", "6.5e46", "", "",
+                     "2.2", "0.6", "0.4", "-25.81", "0.10", "0.10", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry47 = np.array([["J2157-3602", "Wolf et al. (2018), Onken et al. (2020), Lai et al. (2023)",
+                     "https://arxiv.org/abs/1805.04317, https://arxiv.org/pdf/2005.06868, https://arxiv.org/pdf/2302.10397",
+                     "SMSS", "21h57m28.s23", "-36°02′15.″21", "",
+                     "4.692", "", "", "log10.31", "log0.17", "log0.14", "log47.87", "log0.10", "log0.10",
+                     "0.29", "0.11", "0.10", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+# z from: https://arxiv.org/pdf/2005.06868 Onken et al. (2020)
+# mass, L_bol, f_edd from: https://arxiv.org/pdf/2302.10397 Lai et al. (2023)
+
+entry48 = np.array([["J1609+5328", "Matsuoka et al. (2019)",
+                     "https://arxiv.org/pdf/1908.07910",
+                     "HSC", "16h09m53.s03", "+53°28′21.″00", "",
+                     "6.92", "", "", "", "", "", "", "", "",
+                     "", "", "", "-22.75", "1.67", "1.67", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry49 = np.array([["J0839+3900", "Wang et al. (2019)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "DELS", "08h39m46.s88", "+39°00'11.50", "",
+                     "6.905", "0.01", "0.01", "", "", "", "", "", "",
+                     "", "", "", "-26.29", "0.20", "0.20", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
 
 columnNames = ["Name", "Ref",
                "Link",
@@ -368,3 +485,41 @@ columnNames = ["Name", "Ref",
                "f_Edd", "+df_Edd", "-df_Edd", "M1450", "+dM1450", "-dM1450", "F444W", "+dF44W", "-dF444W",
                "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar"
                "comment"]
+
+'''
+
+This section includes black holes with z < 4, the data within should be ignored:
+
+entry48 = np.array([["J0529-4351", "Wolf et al. (2024), Onken et al. (2023)",
+                     "https://arxiv.org/abs/2402.15101, https://arxiv.org/pdf/2209.09342",
+                     "SMSS", "05h29m15.82s", "-43°51′52.″20", "",
+                     "3.962", "", "", "1.738e10", "8.19e8", "7.82e8", "1.862e48", "2.759e47", "2.403e47",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "use best estimate results"]])
+
+# coordinates from: https://arxiv.org/pdf/2209.09342 Onken et al. (2023)
+
+entry49 = np.array([["J1144-4308", "Onken et al. (2022)", "https://arxiv.org/abs/2206.04204",
+                     "0.8314", "0.0001", "0.0001", "2.6e9", "5.62e9", "1.78e9", "4.7e47", "1e47",
+                     "1e47", "1.4", "", "", ""]])
+
+entry50 = np.array([["3C 273 (J1229+0203)", "Peterson et al. (2004)",
+                     "https://arxiv.org/abs/astro-ph/0407299",
+                     "", "0.158", "", "", "8.86e8", "1.87e8",
+                     "1.87e8", "8.21e46", "1.00e46", "8.93e45", "", "", "", "Lbol = 9 λ Lλ"]])
+
+'''
+
+'''
+
+entry = np.array([["", "",
+                     "",
+                     "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+
+'''

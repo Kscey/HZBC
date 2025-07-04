@@ -30,6 +30,18 @@ def estimateMassBlackHole(x):
 
     return removeSciNotion(mass)
 
+def estimateMassUpperError(x, y):
+
+    mass = 10 ** ((-(float(x) - float(y))-3.459) / 2.5) - 10 ** ((-float(x) -3.459) / 2.5)
+
+    return removeSciNotion(mass)
+
+def estimateMassLowerError(x, y):
+
+    mass = 10 ** ((-float(x) -3.459) / 2.5) - 10 ** ((-(float(x) + float(y))-3.459) / 2.5)
+
+    return removeSciNotion(mass)
+
 def logToValue(x):
 
     x = x.strip("log")
