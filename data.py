@@ -457,10 +457,10 @@ entry47 = np.array([["J2157-3602", "Wolf et al. (2018), Onken et al. (2020), Lai
                      "4.692", "", "", "log10.31", "log0.17", "log0.14", "log47.87", "log0.10", "log0.10",
                      "0.29", "0.11", "0.10", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "z from Onken et al. (2020), mass, L_bol, f_Edd from Lai et al. (2023)"]])
 
 # z from: https://arxiv.org/pdf/2005.06868 Onken et al. (2020)
-# mass, L_bol, f_edd from: https://arxiv.org/pdf/2302.10397 Lai et al. (2023)
+# mass, L_bol, f_Edd from: https://arxiv.org/pdf/2302.10397 Lai et al. (2023)
 
 entry48 = np.array([["J1609+5328", "Matsuoka et al. (2019)",
                      "https://arxiv.org/pdf/1908.07910",
@@ -472,9 +472,29 @@ entry48 = np.array([["J1609+5328", "Matsuoka et al. (2019)",
 
 entry49 = np.array([["J0839+3900", "Wang et al. (2019)",
                      "https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
-                     "DELS", "08h39m46.s88", "+39°00'11.50", "",
+                     "DELS", "08h39m46.s88", "+39°00′11.″50", "",
                      "6.905", "0.01", "0.01", "", "", "", "", "", "",
                      "", "", "", "-26.29", "0.20", "0.20", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry50 = np.array([["J2348-3054", "Banados et al. (2016), Venemans et al. (2020), Venemens et al. (2015), Venemans et al. (2013)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/abc563, https://iopscience.iop.org/article/10.3847/0004-637X/816/1/37/meta, https://iopscience.iop.org/article/10.1088/0004-637X/779/1/24",
+                     "VIK", "23h48m33.s34", "−30°54′10.″24", "",
+                     "6.9007", "0.0005", "0.0005", "2.1e9", "0.5e9", "0.5e9", "", "", "",
+                     "", "", "", "-25.72", "0.14", "0.14", "", "", "",
+                     "100-680", "", "", "", "", "", "",
+                     "z from Venemans et al. (2020), SFR from Venemens et al. (2015), mass, M1450 from Venemans et al. (2013)"]])        
+
+# z from: https://iopscience.iop.org/article/10.3847/1538-4357/abc563 Venemans et al. (2020)
+# SFR from: https://iopscience.iop.org/article/10.3847/0004-637X/816/1/37/meta Venemans et al. (2015)
+# mass, M1450 from: https://iopscience.iop.org/article/10.1088/0004-637X/779/1/24 Venemans et al. (2013)
+
+entry51 = np.array([["J2210+0304", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1803.01861",
+                     "HSC", "22h10m27.s24", "+03°04′28.″5", "",
+                     "6.9", "", "", "", "", "", "", "", "",
+                     "", "", "", "-24.44", "0.06", "0.06", "", "", "",
                      "", "", "", "", "", "", "",
                      ""]])
 
