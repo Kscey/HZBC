@@ -498,6 +498,34 @@ entry51 = np.array([["J2210+0304", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "",
                      ""]])
 
+entry52 = np.array([["J2211-6320", "Yang et al. (2021), Wang et al. (2024)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1",
+                     "DES", "22h11m00.s60", "-63°20′55.″90", "",
+                     "6.8449", "0.0003", "0.0003", "0.55e9", "0.24e9", "0.24e9", "5.9e46", "0.2e46", "0.2e46",
+                     "0.8", "0.4", "0.4", "-25.38", "", "", "", "", "",
+                     "132-828", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+
+entry53 = np.array([["J0246-5219", "Yang et al. (2021), Wang et al. (2024)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1",
+                     "DES", "02h46m55.s90", "-52°19′49.″90", "",
+                     "6.8876", "0.0003", "0.0003", "1.05e9", "0.37e9", "0.37e9", "10.2e46", "1.0e46", "1.0e46",
+                     "0.8", "0.3", "0.3", "-25.36", "", "", "", "", "",
+                     "193-1210", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+
+entry54 = np.array([["J0020-3653", "Reed et al. (2019)",
+                     "https://academic.oup.com/mnras/article/487/2/1874/5505847",
+                     "VDES", "00h20m31.s47", "−36°53′41.″80", "",
+                     "6.834", "0.0004", "0.0004", "1.67e9", "0.32e9", "0.32e9", "1.35e47", "0.03e47", "0.03e47",
+                     "0.62", "0.12", "0.12", "-26.92", "0.03", "0.03", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
