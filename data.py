@@ -526,6 +526,45 @@ entry54 = np.array([["J0020-3653", "Reed et al. (2019)",
                      "", "", "", "", "", "", "",
                      ""]])
 
+entry55 = np.array([["J0319-1008", "Yang et al. (2021), Wang et al. (2024)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1",
+                     "DES", "03h19m41.s66", "-10°08′46.″00", "",
+                     "6.8275", "0.0021", "0.0021", "0.40e9", "0.03e9", "0.03e9", "9.6e46", "1.4e46", "1.4e46",
+                     "1.9", "0.3", "0.3", "-25.36", "", "", "", "", "",
+                     "146-916", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+
+entry56 = np.array([["J0112+0110", "Matsuoka et al. (2019)",
+                     "https://arxiv.org/pdf/1908.07910",
+                     "HSC", "01h12m57.s84", "+01°10′42.″40", "",
+                     "6.82", "", "", "", "", "", "", "", "",
+                     "", "", "", "-24.07", "0.35", "0.35", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry57 = np.array([["J0411-0907", "Yang et al. (2021)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32",
+                     "DELS", "04h11m28.s63", "-09°07′49.″70", "",
+                     "6.8260", "0.0007", "0.0007", "0.95e9", "0.09e9", "0.09e9", "15.9e46", "1.0e46", "1.0e46",
+                     "1.3", "0.2", "0.2", "-26.58", "", "", "", "", "",
+                     "119-745", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+
+entry58 = np.array([["J1429-0104", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1704.05854",
+                     "HSC", "14h29m03.s08", "−01°04′43.″40", "",
+                     "6.8", "", "", "", "", "", "log43.95", "log0.06", "log0.06",
+                     "", "", "", "-23.00", "0.26", "0.26", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+
+
+
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
