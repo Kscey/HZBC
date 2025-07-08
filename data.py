@@ -732,13 +732,74 @@ entry75 = np.array([["J006.1+39.22", "Tang et al. (2017), Koptelova et al. (2019
 
 # mass from: https://arxiv.org/pdf/1907.07458 Koptelova et al. (2019)
 
-entry76 = np.array([["", "",
+entry76 = np.array([["J0305-3150", "Banados et al. (2016)",
+                     "https://arxiv.org/pdf/1608.03279",
+                     "VIK", "03h05m16.92s", "−31°50′55.90″", "",
+                     "6.6145", "", "", "", "", "", "", "", "",
+                     "", "", "", "-26.18", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry77 = np.array([["J0923+0402", "Yang et al. (2021), Wang et al. (2024), Wang et al. (2019)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "DELS/HSC", "09h23m47s.12s", "+04°02′54.40″", "",
+                     "6.6330", "0.0003", "0.0003", "1.77e9", "0.02e9", "0.02e9", "21.7e46", "3.0e46", "3.0e46",
+                     "1.0", "0.1", "0.1", "-26.61", "0.11", "0.11", "", "", "",
+                     "116-729", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024), M1450 from Wang et al. (2019), additional information here: https://arxiv.org/pdf/2306.16474  Mazzucchelli et al. (2023)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+
+entry78 = np.array([["J323.1+12.29", "Mazzucchelli et al. (2017), Wang et al. (2019)",
+                     "https://arxiv.org/pdf/1710.01251, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "PSO", "21h32m33.191s", "+12°17′55.26″", "",
+                     "6.5881", "0.0003", "0.0003", "1.39e9", "0.32e9", "0.51e9", "0.81e47", "0.07e47", "0.50e47",
+                     "0.44", "1.09", "3.19", "-27.04", "0.12", "0.12", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Wang et al. (2019)"]])
+
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+# How is it possible that the f_Edd is negative?
+
+entry79 = np.array([["J231.6-20.83", "Mazzucchelli et al. (2017)",
+                     "https://arxiv.org/pdf/1710.01251",
+                     "PSO", "15h26m37.841s", "–20°50′00.66″", "",
+                     "6.5864", "0.0005", "0.0005", "3.05e9", "0.44e9", "2.24e9", "1.89e47", "0.34e47", "0.45e47",
+                     "0.48", "0.11", "0.39", "-27.14", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry80 = np.array([["J0706+2921", "Yang et al. (2021), Wang et al. (2024), Wang et al. (2019)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "DELS", "07h06m26.38s", "+29°21′05.50″", "",
+                     "6.6037", "0.0003", "0.0003", "2.11e9", "0.16e9", "0.16e9", "33.9e46", "1.5e46", "1.5e46",
+                     "1.3", "0.1", "0.1", "-27.51", "0.08", "0.08", "", "", "",
+                     "129-808", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024), M1450 from Wang et al. (2019), additional information here: https://arxiv.org/pdf/2306.16474  Mazzucchelli et al. (2023)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+
+entry81 = np.array([["J1135+5011", "Yang et al. (2021), Wang et al. (2024), Wang et al. (2019)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://arxiv.org/html/2404.15413v1#S1, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "DELS", "11h35m08.92s", "+50°11′32.60″", "",
+                     "6.5851", "0.0008", "0.0008", "1.49e9", "0.05e9", "0.05e9", "10.8e46", "0.8e46", "0.8e46",
+                     "0.6", "0.1", "0.1", "-26.19", "0.17", "0.17", "", "", "",
+                     "107-669", "", "", "", "", "", "",
+                     "coordinates, SFR_CII from Wang et al. (2024), M1450 from Wang et al. (2019)"]])
+
+# coordinates, SFR_CII from: https://arxiv.org/html/2404.15413v1#S1 Wang et al. (2024)
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+
+entry82 = np.array([["J0921+0007", "",
                      "",
                      "", "", "", "",
                      "", "", "", "", "", "", "", "", "",
                      "", "", "", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
                      ""]])
+
 
 columnNames = ["Name", "Ref",
                "Link",
