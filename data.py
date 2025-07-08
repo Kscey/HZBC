@@ -879,6 +879,100 @@ entry90 = np.array([["J2131-4359", "Yang et al. (2019)",
                      "", "", "", "", "", "", "",
                      ""]])
 
+
+entry91 = np.array([["J261.0+19.02", "Mazzucchelli et al. (2017), Wang et al. (2019)",
+                     "https://arxiv.org/pdf/1710.01251, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "PSO", "17h24m08.743s", "+19°01′43.12″", "",
+                     "6.44", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "-25.51", "0.19", "0.19", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Wang et al. (2019)"]])
+
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+
+entry92 = np.array([["J183.1+05.09", "Mazzucchelli et al. (2017), Wang et al. (2019)",
+                     "https://arxiv.org/pdf/1710.01251, https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf",
+                     "PSO", "12h12m26.981s", "+05°05′33.49″", "",
+                     "6.4386", "0.0004", "0.0004", "", "", "", "", "", "",
+                     "", "", "", "-26.80", "0.10", "0.10", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
+
+entry93 = np.array([["J2318-3113", "Decarli et al. (2018)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa",
+                     "VIK", "23s18m18.351s", "−31°13′46.35″", "",
+                     "6.444", "0.005", "0.005", "", "", "", "", "", "",
+                     "", "", "", "-26.11", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry94 = np.array([["J0210-0456", "Banados et al. (2016), Willott et al. (2015)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2",
+                     "CFHQS", "02h10m13.19s", "−04°56′20.90″", "",
+                     "6.4323", "0.0005", "0.0005", "0.8e8", "1.0e8", "0.6e8", "", "", "",
+                     "", "", "", "-24.53", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z, mass from Willott et al. (2015)"]])
+
+# z, mass from: https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2 Willott et al. (2015)
+
+entry95 = np.array([["J011.3+09.03", "Mazzucchelli et al. (2017)",
+                     "https://arxiv.org/pdf/1710.01251",
+                     "PSO", "00h45m33.568s", " +09°01′56.96″", "",
+                     "6.42", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "-25.95", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry96 = np.array([["J1148+5251", "Banados et al. (2016), Willott et al. (2015)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2",
+                     "SDSS", "11h48m16.65s", "+52°51′50.39″", "",
+                     "6.4189", "0.0006", "0.0006", "4.9e9", "4.9e9", "2.5e9", "", "", "",
+                     "", "", "", "-27.62", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z, mass from Willott et al. (2015)"]])
+
+# z, mass from: https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2 Willott et al. (2015)
+
+entry97 = np.array([["J2329-0301", "Banados et al. (2016), ishimoto et al. (2020)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "CFHQS", "23h29m08.28s", "−03°01′58.80″", "",
+                     "6.4164", "0.0008", "0.0008", "", "", "", "", "", "",
+                     "", "", "", "-25.25", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z from Ishimoto et al. (2020)"]])
+
+# z from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
+
+entry98 = np.array([["J0216-5226", "Yang et al. (2019)",
+                     "https://iopscience.iop.org/article/10.3847/1538-3881/ab1be1/meta",
+                     "DES", "02h16m38.85s", "-52°26′20.60″", "",
+                     "6.41", "", "", "", "", "", "", "", "",
+                     "", "", "", "-25.19", "0.19", "0.19", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry99 = np.array([["J1004+0239", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1803.01861",
+                     "HSC", "10h04m01.36s", "+02°39′30.70″", "",
+                     "6.41", "", "", "", "", "", "log44.27", "log0.01", "log0.01",
+                     "", "", "", "-24.52", "0.03", "0.03", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry100 = np.array([["J1535+1943", "Wang et al. (2019), Yang et al. (2021), D'Odorico et al. (2023)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf, https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32, https://academic.oup.com/mnras/article/523/1/1399/7172883",
+                     "DELS", "15h35m32.87s", "+19°43′20.10″", "",
+                     "6.370", "0.001", "0.001", "3.53e9", "0.33e9", "0.33e9", "33.5e46", "1.7e46", "1.7e46",
+                     "0.8", "0.1", "0.1", "-27.01", "0.13", "0.13", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z, mass, L_bol, f_Edd from Yang et al. (2021), coordinates from D'Odorico et al. (2023), additional information here: https://arxiv.org/pdf/2306.16474  Mazzucchelli et al. (2023)"]])
+
+# z, mass, L_bol, f_Edd from: https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32 Yang et al. (2021)
+# coordinates from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
+
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
