@@ -1157,6 +1157,25 @@ entry120 = np.array([["J0905+0300", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "",
                      ""]])
 
+entry121 = np.array([["J1146+0124", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1803.01861",
+                     "HSC", "11h46m48.42s", "+01°24′20.10″", "",
+                     "6.27", "", "", "", "", "", "", "", "",
+                     "", "", "", "-23.71", "0.07", "0.07", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry122 = np.array([["J1623+3112", "Ishimoto et al. (2020), Eilers et al. (2017)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf, https://iopscience.iop.org/article/10.3847/1538-4357/aa6c60",
+                     "SDSS", "16h23m31.81s", "+31°12′00.53″", "",
+                     "6.2572", "0.0024", "0.0024", "", "", "", "", "", "",
+                     "", "", "", "-26.55", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "Instrument from Eilers et al. (2017)"]])
+
+# Instrument from: https://iopscience.iop.org/article/10.3847/1538-4357/aa6c60 Eilers et al. (2017)
+
+
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
