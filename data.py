@@ -191,13 +191,15 @@ entry17 = np.array([["J158–14", "Eilers et al. (2020)",
                      "230", "", "", "", "", "", "",
                      ""]])
 
-entry18 = np.array([["J0330–4025", "Eilers et al. (2020)",
-                     "https://arxiv.org/abs/2002.01811",
+entry18 = np.array([["J0330–4025", "Eilers et al. (2020), Reed et al. (2017)",
+                     "https://arxiv.org/abs/2002.01811, https://academic.oup.com/mnras/article/468/4/4702/3089747",
                      "VDES", "03h30m27.920s", "–40°25′16.200″", "",
                      "6.239", "0.004", "0.004", "4.96e9", "0.51e9", "0.51e9", "8.91e46", "", "",
-                     "0.14", "0.01", "0.01", "-26.42", "", "", "", "", "",
+                     "0.14", "0.01", "0.01", "-26.42", "0.06", "0.06", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "M1450 from Reed et al. (2017)"]])
+
+# M1450 from: https://academic.oup.com/mnras/article/468/4/4702/3089747 Reed et al. (2017)
 
 entry19 = np.array([["J2100–1715", "Eilers et al. (2020)",
                      "https://arxiv.org/abs/2002.01811",
@@ -1174,6 +1176,24 @@ entry122 = np.array([["J1623+3112", "Ishimoto et al. (2020), Eilers et al. (2017
                      "Instrument from Eilers et al. (2017)"]])
 
 # Instrument from: https://iopscience.iop.org/article/10.3847/1538-4357/aa6c60 Eilers et al. (2017)
+
+entry123 = np.array([["J0050+3445", "Ishimoto et al. (2020), Eilers et al. (2017)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf, https://iopscience.iop.org/article/10.3847/1538-4357/aa6c60",
+                     "CFHQS", "00h55m02.91s", "+34°45′21.65″", "",
+                     "6.253", "0.003", "0.003", "", "", "", "", "", "",
+                     "", "", "", "-26.70", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "Instrument from Eilers et al. (2017)"]])
+
+# Instrument from: https://iopscience.iop.org/article/10.3847/1538-4357/aa6c60 Eilers et al. (2017)
+
+entry124 = np.array([["J0330-4025", "",
+                     "",
+                     "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
 
 
 columnNames = ["Name", "Ref",
