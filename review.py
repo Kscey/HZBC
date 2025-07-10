@@ -108,6 +108,12 @@ entry33 = np.array(["Eilers et al. (2017)", "https://iopscience.iop.org/article/
 entry34 = np.array(["Reed et al. (2017)", "https://academic.oup.com/mnras/article/468/4/4702/3089747",
                     "J0143−5545, J0224−4711, J0323−4701, J0330−4025, J0408−5632, J0410−4414, J0420−4453, J0454−4448, J2250−5015, J2315−0023"])
 
+entry35 = np.array(["Willott et al. (2010)", "https://iopscience.iop.org/article/10.1088/0004-6256/139/3/906",
+                    "J005006+344522, J013603+022605, J142952+544717, J022122 − 080251, J222901+145709, J210054 − 171522, J031649 − 134032, J105928 − 090620, J224237+033421"])
+
+entry36 = np.array(["Kashikawa et al. (2015)", "https://arxiv.org/pdf/1410.7401",
+                    "VIMOS2911001793, ELAIS1091000446, Lockman14004800, ELAIS891006630, ELAIS914002066, ELAIS914003931, VIMOS2752003989, VIMOS2773005145, VIMOS2833009245, VIMOS2853001577, VIMOS2733006446, VIMOS2832005555, VIMOS2871008551, VIMOS2871007103, VIMOS3031005637, VIMOS2873003200, VIMOS2993006408"])
+
 arrList = entry0
 
 for i in range(1, 10000):
