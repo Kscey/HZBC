@@ -725,7 +725,7 @@ entry74 = np.array([["J1048-0109", "Venemans et al. (2020), Wang et al. (2019), 
 # M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ab2be5/pdf Wang et al. (2019)
 
 entry75 = np.array([["J0024+3913/J006.1+39.22", "Tang et al. (2017), Koptelova et al. (2019)",
-                     "(search MNRAS 466:4568–4572 if link does not work) https://watermark.silverchair.com/stw3287.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1IwggNOBgkqhkiG9w0BBwagggM_MIIDOwIBADCCAzQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMF_1RBZq4L56SWYeUAgEQgIIDBbRNGqCS31Npb6fdG4_M_P05t0c0Tr4op2vZs_jjQvcI_7IvFrbSAhdaVQ-2DlP0abYVXGja_8Hn4VUfM-6rEqOADJqqgRa347T0yczgayiZCWlMSURzn96wRQjoGAh0YfVfIhLVkS0CrVBVw8HTg-xK7FfDSmKmwejln8Z1d5poq4WgFKwVyi5W-FnXTugq7XQ28p0mMjtoodRb0nRJLMz-mpHbPJioKIeW7N18BhR3iroWmKpiKX6Fjb7SKtYrFWuuAIk_GftkKtH_kLFTQf8XRr4TKTHASvI9ZRQLq1YqhIMjGajbLLALiieGCaeDZNq_vstos7ZCe7eV58-j9bpTD6hMcbfHLdKpDBzroyAVWqrOvQfqmdY2wYW_ZKuPSw2FWIa0hzCejUo0cTcYMFNjou1Dk_a8EMg7eyWocDmX24ny_10N0G75mRPS-vvsN5jcE5BsoILSv8bmVKUEEmIyMa_4x11Z2nZLHoggkb8cx437haVisdPOtILtxWFRmt_WbSbZAuy5wpR-1-vCUU1ttbRxDp6vbM6TvoPQb9RyJxHBJjWR6LzOpKgzMJ5esQepc-DYM5wdG7-TAoWfE_F9S2JQuagqUpG3dZwtDZ0mHGF1Bs4l_5EPla02eCDjQYaGe_5D98CFQ1mQBTt4H6FdmWBi92Nnq6yZa1GaI_fSoZ_xrJ1tWpzaNXjmot3yY4iIBlhY5A03XFlS2cc-iu91eeqMTz8UzrFFh1Pm81egcybtuNjwbVYIhDzAgm48VCfCjJTubqNllydBPcWxYUOsMeHpLk-tfKn2cFsWz9Ot_QI9k8OHWbYLBvJPX0uHyn1_j5zRJqwF0tz1tI1joEIgQfLjdFhtHEELfGPWbh1BRmZyTTaBPTsPqQtvNlBEYv5T8yletVSu2MCPLbyLhrUNY3D-nA71X0jWURr_iPtvZL1N8ipdOwZ40KQwX8CEc_yFOU-bxBW6yNTbm3W_kLJgIJFXqjrZT96eKYkfg8IBWcGGghMZ17WVDKZMsclRfPRrOJab, https://arxiv.org/pdf/1907.07458",
+                     "https://academic.oup.com/mnras/article/466/4/4568/2712523, https://arxiv.org/pdf/1907.07458",
                      "PSO", "00h24m29.77s", "+39°13′18.95″", "",
                      "6.61", "0.02", "0.02", "2.19e8", "0.30e8", "0.30e8", "", "", "",
                      "", "", "", "-25.96", "0.08", "0.08", "", "", "",
@@ -1530,11 +1530,131 @@ entry164 = np.array([["J1509-1749", "Decarli et al. (2018), D'Odorico et al. (20
                      "6.1225", "0.0007", "0.0006", "log9.30", "log0.15", "log0.22", "", "", "",
                      "", "", "", "-27.14", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "mass from D'Odorico et al. (2023)"]])
 
 # mass from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
 
+entry165 = np.array([["J0422-1927/P065–19/J065.5-19.45", "Decarli et al. (2018)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa",
+                     "PSO", "04h22m00.994s", "−19°27′28.68″", "",
+                     "6.12", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "-26.62", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
 
+entry166 = np.array([["J1427+3312", "Banados et al. (2016), Khusanova et al. (2022)",
+                     "https://arxiv.org/pdf/1608.03279, https://www.aanda.org/articles/aa/full_html/2022/08/aa43660-22/aa43660-22.html",
+                     "FIRST", "14h27m38.59s", "+33°12′42.00″", "",
+                     "6.12", "", "", "", "", "", "", "", "",
+                     "", "", "", "-26.10", "", "", "", "", "",
+                     "30-90", "", "", "", "", "", "",
+                     "SFR_CII from Khusanova et al. (2022)"]])
+
+# SFR_CII from: https://www.aanda.org/articles/aa/full_html/2022/08/aa43660-22/aa43660-22.html Khusanova et al. (2022)
+
+entry167 = np.array([["J2315-0023", "Banados et al. (2016), Jiang et al. (2008)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.1088/0004-6256/135/3/1057",
+                     "SDSS", "23h15m46.57s", "−00°23′58.10″", "",
+                     "6.117", "0.006", "0.006", "", "", "", "", "", "",
+                     "", "", "", "-25.14", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z from Jiang et al. (2008)"]])
+
+# z from: https://iopscience.iop.org/article/10.1088/0004-6256/135/3/1057 Jiang et al. (2008)
+
+entry168 = np.array([["J2252+0225", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1803.01861",
+                     "HSC", "22h52m05.44s", "+02°25′31.90″", "",
+                     "6.12", "", "", "", "", "", "", "", "",
+                     "", "", "", "-22.74", "0.06", "0.06", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry169 = np.array([["J1558-0724/J239.7-07.40", "Banados et al. (2016)",
+                     "https://arxiv.org/pdf/1608.03279",
+                     "PSO", "15h58m50.99s", "−07°24′09.59″", "",
+                     "6.11", "", "", "", "", "", "", "", "",
+                     "", "", "", "-27.46", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry170 = np.array([["J1428-1602/P217–16/J217.0-16.04", "Decarli et al. (2018)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa",
+                     "PSO", "14h28m21.394s", "−16°02′43.29″", "",
+                     "6.11", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "-26.93", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry171 = np.array([["J0004-0049", "Matsuoka et al. (2019)",
+                     "https://arxiv.org/pdf/1908.07910",
+                     "HSC", "00h04m45.81s", "-00°49′44.30″", "",
+                     "6.10", "", "", "", "", "", "", "", "",
+                     "", "", "", "-23.90", "0.06", "0.06", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry172 = np.array([["J0454-4448", "Reed et al. (2017), Decarli et al. (2018)",
+                     "https://academic.oup.com/mnras/article/468/4/4702/3089747, https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa",
+                     "VDES", "04h54m01.79s", "−44°48′31.10″", "",
+                     "6.0581", "0.0006", "0.0006", "", "", "", "", "", "",
+                     "", "", "", "-26.36", "0.05", "0.05", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z from Decarli et al. (2018)"]])
+
+# z from: https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa Decarli et al. (2018)
+
+entry173 = np.array([["J0009+3252/J002.3+32.87", "Banados et al. (2016)",
+                     "https://arxiv.org/pdf/1608.03279",
+                     "PSO", "00h09m30.89s", "+32°52′12.94″", "",
+                     "6.10", "", "", "", "", "", "", "", "",
+                     "", "", "", "-25.65", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry174 = np.array([["J1406-0144", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1803.01861",
+                     "HSC", "14h06m46.88s", "−01°44′02.60″", "",
+                     "6.10", "", "", "", "", "", "", "", "",
+                     "", "", "", "-23.37", "0.16", "0.16", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry175 = np.array([["J0235-0532", "Matsuoka et al. (2018)",
+                     "https://arxiv.org/pdf/1704.05854",
+                     "HSC", "02h35m42.42s", "−05°32′41.60″", "",
+                     "6.09", "", "", "", "", "", "", "", "",
+                     "", "", "", "-23.01", "0.05", "0.05", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry176 = np.array([["J1602+4228", "Banados et al. (2016), Ishimoto et al. (2020)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "SDSS", "16h02m53.98s", "+42°28′24.94″", "",
+                     "6.083", "0.005", "0.005", "", "", "", "", "", "",
+                     "", "", "", "-26.94", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+# z from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
+
+entry177 = np.array([["J0935-0110", "Matsuoka et al. (2019)",
+                     "https://arxiv.org/pdf/1908.07910",
+                     "HSC", "09h35m43.32s", "-01°10′33.30″", "",
+                     "6.08", "", "", "", "", "", "", "", "",
+                     "", "", "", "-21.97", "0.18", "0.28", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry178 = np.array([["J2228+0152", "Matsuoka et al. (2018), Ishimoto et al. (2020)",
+                     "https://arxiv.org/pdf/1704.05854, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
+                     "HSC", "22h28m47.71s", "+01°52′40.50″", "",
+                     "6.0805", "0.0004", "0.0004", "", "", "", "", "", "",
+                     "", "", "", "-24.00", "0.04", "0.04", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z from Ishimoto et al. (2020)"]])
+
+# z from: https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf Ishimoto et al. (2020)
 
 columnNames = ["Name", "Ref",
                "Link",

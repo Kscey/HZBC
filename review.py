@@ -117,6 +117,12 @@ entry36 = np.array(["Kashikawa et al. (2015)", "https://arxiv.org/pdf/1410.7401"
 entry37 = np.array(["Wang et al. (2016)", "https://arxiv.org/pdf/1602.04659",
                     "J010013.02+280225.8, J154552.08+602824.0, J232514.24+262847.6, J235632.44−062259.2"])
 
+entry38 = np.array(["Khusanova et al. (2022)", "https://www.aanda.org/articles/aa/full_html/2022/08/aa43660-22/aa43660-22.html",
+                    "J0309+2717, J1429+5447, J1427+3312, P172+18"])
+
+entry39 = np.array(["Jiang et al. (2008)", "https://iopscience.iop.org/article/10.1088/0004-6256/135/3/1057",
+                    "J0005−0006, J0203+0012, J0303−0019, J0353+0104, J2054−0005, J2315−0023"])
+
 arrList = entry0
 
 for i in range(1, 10000):
