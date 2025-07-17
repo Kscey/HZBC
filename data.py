@@ -2067,7 +2067,43 @@ entry224 = np.array([["J2310+1855", "Wang et al. (2013), D'Odorico et al. (2023)
 # coordinates, mass from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
 # M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
 
+entry225 = np.array([["J2250-5015", "D'Odorico et al. (2023), Mazzucchelli et al. (2023), Reed et al. (2017)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/2306.16474, https://academic.oup.com/mnras/article/468/4/4702/3089747",
+                     "VDES", "22h50m02.01s", "−50°15′42.20″", "",
+                     "5.985", "0.003", "0.003", "log9.66", "log0.41", "log0.41", "log47.44", "log0.07", "log0.08",
+                     "0.46", "0.72", "0.72", "-26.80", "0.04", "0.04", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "L_bol, f_Edd from Mazzucchelli et al. (2023), M1450 from Reed et al. (2017)"]])
 
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+# M1450 from: https://academic.oup.com/mnras/article/468/4/4702/3089747 Reed et al. (2017)
+# f_Edd can somehow be negative again?
+
+entry226 = np.array([["J0028+0457/J007.0+04.95", "Banados et al. (2016), Jiang et al. (2015)",
+                     "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.1088/0004-6256/149/6/188",
+                     "PSO/SDSS", "00h28m06.56s", "+04°57′25.64″", "",
+                     "6.04", "0.03", "0.03", "", "", "", "", "", "",
+                     "", "", "", "-26.38", "0.10", "0.10", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z, M1450 from Jiang et al. (2015)"]])
+
+# z, M1450 from: https://iopscience.iop.org/article/10.1088/0004-6256/149/6/188 Jiang et al. (2015)
+
+entry227 = np.array([["J0231-2850/J037.9-28.83", "Banados et al. (2016)",
+                     "https://arxiv.org/pdf/1608.03279",
+                     "PSO", "02h31m52.96s", "−28°50′20.08″", "",
+                     "6.00", "", "", "", "", "", "", "", "",
+                     "", "", "", "-26.23", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry228 = np.array([["J2356+0023", "Banados et al. (2016)",
+                     "https://arxiv.org/pdf/1608.03279",
+                     "SDSS", "23h56m51.58s", "+00°23′33.30″", "",
+                     "6.00", "", "", "", "", "", "", "", "",
+                     "", "", "", "-25.50", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
 
 columnNames = ["Name", "Ref",
                "Link",
