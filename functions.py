@@ -1,7 +1,7 @@
 import numpy as np
 
 def removeSciNotion(x):
-
+    
     exponent = int(np.log10(np.abs(x)))
     mantissa = x/10**exponent
     y = f'{mantissa:.3f}e{exponent:.0f}'
@@ -68,3 +68,10 @@ def logToLowerError(x, y):
 
     return removeSciNotion(value)
 
+def logToValuef_Edd(x):
+
+    x = x.strip("log")
+
+    value = 10 ** float(x)
+
+    return value
