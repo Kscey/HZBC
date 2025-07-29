@@ -2945,6 +2945,248 @@ entry318 = np.array([["J1202−0057", "Ishimoto et al. (2020)",
                      "", "", "", "", "", "", "",
                      ""]])
 
+entry319 = np.array([["J0129–0035", "Wang et al. (2013), Venemans et al. (2020), Willott et al. (2015), Jiang et al. (2016)",
+                     "https://iopscience.iop.org/article/10.1088/0004-637X/773/1/44, https://iopscience.iop.org/article/10.3847/1538-4357/abc563, https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2, https://iopscience.iop.org/article/10.3847/1538-4357/833/2/222",
+                     "SDSS", "01:29:58.515", "-00:35:39.81", "",
+                     "5.7787", "0.0001", "0.0001", "1.7e8", "3.1e8", "1.1e8", "0.57e13S", "", "",
+                     "", "", "", "-24.39", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "coordinates from Venemans et al. (2020), mass from Willott et al. (2015), M1450 from Jiang et al. (2016)"]])      
+
+# coordinates from: https://iopscience.iop.org/article/10.3847/1538-4357/abc563 Venemans et al. (2020)
+# mass from: https://iopscience.iop.org/article/10.1088/0004-637X/801/2/123#apj509348t2 Willott et al. (2015) 
+# M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/833/2/222 Jiang et al. (2016)       
+
+entry320 = np.array([["J0038-1025/P009–10/J009.7–10.43", "Decarli et al. (2018), D'Odorico et al. (2023), Mazzucchelli et al. (2023)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa, https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "00:38:56.522", "-10:25:53.90", "",
+                     "5.938", "0.008", "0.008", "log9.90", "log0.09", "log0.11", "log47.34", "log0.08", "log0.09",
+                     "0.21", "0.06", "0.06", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "z, mass from D'Odorico et al. (2023), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# z, mass from: https://academic.oup.com/mnras/article/523/1/1399/7172883 D'Odorico et al. (2023)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry321 = np.array([["J0046–2837", "Decarli et al. (2018)",
+                     "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa",
+                     "VIK", "00:46:23.65", "-28:37:47.34", "",
+                     "5.99", "0.05", "0.05", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry322 = np.array([["J0045+0901/J011+09/J011.3+09.03", "Eilers et al. (2020), Yang et al. (2021)",
+                     "https://arxiv.org/pdf/2002.01811, https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32",
+                     "PSO", "00:45:33.566", "+09:01:56.928", "",
+                     "6.4694", "0.0002", "0.0002", "0.63e9", "0.02e9", "0.02e9", "6.2e46", "0.6e46", "0.6e46",
+                     "0.8", "0.1", "0.1", "-25.86", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "mass, L_bol, f_Edd, M1450 from Yang et al. (2021)"]])
+
+# mass, L_bol, f_Edd, M1450 from: https://iopscience.iop.org/article/10.3847/1538-4357/ac2b32 Yang et al. (2021)
+
+entry323 = np.array([["J0346-1628/P056−16/J056–16/J056.7-16.47", "Eilers et al. (2020)",
+                     "https://arxiv.org/pdf/2002.01811",
+                     "PSO", "03:46:52.044", "-16:28:36.876", "",
+                     "5.9670", "0.0023", "0.0023", "0.71e9", "0.04e9", "0.04e9", "log47.06", "", "",
+                     "1.26", "0.08", "0.08", "-26.72", "", "", "", "", "",
+                     "1", "", "", "", "", "", "",
+                     ""]])
+
+entry324 = np.array([["J1743+4124/J265+41/J265.9+41.41", "Eilers et al. (2020)",
+                     "https://arxiv.org/pdf/2002.01811",
+                     "PSO", "17:43:43.136", "+41:24:50.191", "",
+                     "6.0263", "0.0023", "0.0023", "", "", "", "", "", "",
+                     "", "", "", "-25.56", "", "", "", "", "",
+                     "1710", "", "", "", "", "", "",
+                     ""]])
+
+entry325 = np.array([["J0332-2746/GS-30148179/30148179", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:34.10", "-27:46:47.46", "",
+                     "5.922", "", "", "log7.12", "log0.34", "log0.35", "log44.25", "log0.06", "log0.08",
+                     "0.11", "0.05", "0.03", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.78",
+                     ""]])
+
+entry326 = np.array([["J0332-2746/GS-210600/210600", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:39.87", "-27:46:47.46", "",
+                     "6.306", "", "", "log7.42", "log0.33", "log0.34", "log44.31", "log0.09", "log0.11",
+                     "0.059", "0.017", "0.016", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.26",
+                     ""]])
+
+entry327 = np.array([["J0332-2747/GS-204851/204851/GOODS-S-13971", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:33.26", "-27:47:24.90", "",
+                     "5.480", "", "", "log7.68", "log0.32", "log0.31", "log44.98", "log0.17", "log0.12",
+                     "0.16", "0.04", "0.02", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "additional information (M_star) here: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)"]])
+
+entry328 = np.array([["J0332-2752/GS-172975/172975", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:21.06", "-27:52:16.46", "",
+                     "4.741", "", "", "log7.25", "log0.32", "log0.32", "log44.07", "log0.04", "log0.04",
+                     "0.05", "0.01", "0.01", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.98",
+                     ""]])
+
+entry329 = np.array([["J0332-2754/GS-159717/159717", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:23.41", "-27:54:04.54", "",
+                     "5.077", "", "", "log7.44", "log0.30", "log0.30", "log45.13", "log0.008", "log0.008",
+                     "0.38", "0.04", "0.04", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     ""]])
+
+entry330 = np.array([["J0332-2752/GS-38562/38562", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:32.61", "-27:52:17.94", "",
+                     "4.822", "", "", "log7.53", "log0.30", "log0.31", "log44.74", "log0.08", "log0.08",
+                     "0.13", "0.01", "0.01", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log9.57",
+                     ""]])
+
+entry331 = np.array([["J1236+6213/JADES GN+189.09144+62.22811 1001830/GN-38509/38509", "Juodžbalis et al. (2025), Juodžbalis et al. (2024)",
+                     "https://arxiv.org/html/2504.03551v1, https://www.nature.com/articles/s41586-024-08210-5#Sec2",
+                     "JWST", "12:36:21.95", "-62:13:41.20", "",
+                     "6.677", "0.004", "0.004", "log8.57", "log0.37", "log0.38", "log45.09", "log0.57", "log0.33",
+                     "0.027", "0.014", "0.0096", "", "", "", "", "", "",
+                     "1.38", "0.92", "0.45", "1.38", "0.92", "0.45", "log8.92",
+                     "z, SFR, M_star from Juodžbalis et al. (2024)"]])
+
+# z, SFR, M_star from: https://www.nature.com/articles/s41586-024-08210-5#Sec2 Juodžbalis et al. (2024)
+
+entry332 = np.array([["(Tentative) J0332-2748/GS-200679/200679", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "10:12:27.34", "-27:48:22.32", "",
+                     "4.547", "", "", "log6.19", "log0.60", "log0.30", "log43.63", "log0.09", "log0.39",
+                     "0.23", "0.02", "0.19", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.53",
+                     ""]])
+
+entry333 = np.array([["(Tentative) J0332-2751/GS-20057765/20057765", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:09.79", "-27:51:32.44", "",
+                     "8.913	", "", "log7.33", "log0.62", "log0.70", "log44.16", "log0.19", "log0.30", "",
+                     "0.051", "0.090", "0.036", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.08",
+                     ""]])
+
+entry334 = np.array([["(Tentative) J0332-2752/GS-20030333/20030333", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:12.90", "-27:52:40.40", "",
+                     "7.891", "", "", "log7.42", "log0.65", "log0.48", "log44.44", "log0.11", "log0.14",
+                     "0.08", "0.078", "0.056", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log8.24",
+                     ""]])
+
+entry335 = np.array([["(Tentative) J0332-2753/GS-164055/164055", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "03:32:19.60", "-27:53:18.85", "",
+                     "7.397", "", "", "log7.63", "log0.59", "log0.66", "log44.21", "log0.16", "log0.21",
+                     "0.03", "0.048", "0.020", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log7.99",
+                     ""]])
+
+entry336 = np.array([["(Tentative) J1236+6214/GN-4685/4685", "Juodžbalis et al. (2025)",
+                     "https://arxiv.org/html/2504.03551v1",
+                     "JWST", "12:36:23.11", "+62:14:20.90", "",
+                     "7.415", "", "", "log7.36", "log0.45", "log0.42", "log44.13", "log0.10", "log0.12",
+                     "0.045", "0.020", "0.020", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "log9.91",
+                     ""]])
+
+entry337 = np.array([["J0132-0216/J023-02/J023.0-02.26", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "01:32:01.70", "-02:16:03.11", "",
+                     "5.817", "0.002", "0.002", "log9.39", "log0.05", "log0.06", "log47.33", "log0.06", "log0.07",
+                     "0.68", "0.12", "0.12", "-26.46", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry338 = np.array([["J0140-1140/J025-11/J025.2-11.68", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "01:40:57.03", "-11:40:59.48", "",
+                     "5.816", "0.002", "0.002", "log9.33", "log0.06", "log0.07", "log47.27", "log0.09", "log0.11",
+                     "0.66", "0.18", "0.18", "-26.87", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry339 = np.array([["J0158-2905/J029-29/J029.5-29.08", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "01:58:04.14", "-29:05:19.25", "",
+                     "5.976", "0.003", "0.003", "log9.34", "log0.06", "log0.07", "log47.49", "log0.07", "log0.08",
+                     "1.1", "0.27", "0.27", "-27.32", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry340 = np.array([["J0423+0143/J065+01/J065.9+01.72", "D'Odorico et al. (2023), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "04:23:50.15", "+01:43:24.79", "",
+                     "5.804", "0.004", "0.004", "log9.60", "log0.12", "log0.17", "log47.2", "log0.08", "log0.1",
+                     "0.31", "0.12", "0.12", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry341 = np.array([["J0713+0855/J108+08/J108.4+08.92", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "07:13:46.31", "+08:55:32.65", "",
+                     "5.955", "0.002", "0.002", "log9.49", "log0.08", "log0.10", "log47.46", "log0.1", "log0.13",
+                     "0.72", "0.24", "0.24", "-27.59", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry342 = np.array([["J1213-1246/J183-12/J183.2-12.76", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "12:13:11.81", "-12:46:03.45", "",
+                     "5.893", "0.006", "0.006", "log9.22", "log0.07", "log0.09", "log47.41", "log0.06", "log0.07",
+                     "1.19", "0.43", "0.43", "-27.49", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023), additional information (SFR_IR) here: https://iopscience.iop.org/article/10.3847/1538-4357/aba52d Li et al. (2020)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry343 = np.array([["J1609-1258/J242-12/J242.4-12.98", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "16:09:45.53", "-12:58:54.11", "",
+                     "5.840", "0.006", "0.006", "log9.51", "log0.10", "log0.13", "log47.26", "log0.12", "log0.17",
+                     "0.43", "0.18", "0.18", "-26.92", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
+entry344 = np.array([["J2033-2738/J308-27/J308.4-27.64", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
+                     "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
+                     "PSO", "20:33:55.91", "-27:38:54.60", "",
+                     "5.799", "0.002", "0.002", "log9.09", "log0.05", "log0.05", "log47.35", "log0.06", "log0.07",
+                     "1.4", "0.26", "0.26", "-26.78", "", "", "", "", "",
+                     "", "", "", "", "", "", "",
+                     "M1450 from Banados et al. (2016), L_bol, f_Edd from Mazzucchelli et al. (2023)"]])
+
+# M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
+# L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
+
 columnNames = ["Name", "Ref",
                "Link",
                "Inst", "RA", "DEC", "Distance",
@@ -2995,3 +3237,5 @@ entry = np.array([["", "",
 # Shen et al. (2019) All-clear
 
 # Banados et al. (2016) All-clear
+
+# Look for LRDs if time permits: https://iopscience.iop.org/article/10.3847/1538-4357/ad9920
