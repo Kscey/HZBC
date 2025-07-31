@@ -82,6 +82,16 @@ for i in range(1, 10000):
 
             currentEntry[0, 10] = functions.estimateMassBlackHole(currentEntry[0, 19])
 
+            if currentEntry[0, 32] == "":
+
+                currentEntry[0, 32] = currentEntry[0, 32] + "BHM calculated using the formula: mass = 10^{[-(M1450)-3.459]/2.5}"
+            
+            else:
+
+                currentEntry[0, 32] = currentEntry[0, 32] + ", BHM calculated using the formula: mass = 10^{[-(M1450)-3.459]/2.5}"
+
+
+            
         # Converts the log values and errors of BHM, L_bol, Mstar, f_Edd to non-log values
 
         if "log" in currentEntry[0, 11]:
