@@ -75,3 +75,16 @@ def logToValuef_Edd(x):
     value = 10 ** float(x)
 
     return value
+
+def unLog(x):
+
+    return 10 ** x
+
+def unLogUp(x, y):
+
+    return 10 ** (x + y) - 10 ** x
+
+def unLogDown(x, y):
+
+    return 10 ** x - 10 ** (x - y)
+

@@ -81,6 +81,14 @@ for i in range(1, 10000):
                 currentEntry[0, 12] = functions.estimateMassLowerError(currentEntry[0, 19], currentEntry[0, 20])
 
             currentEntry[0, 10] = functions.estimateMassBlackHole(currentEntry[0, 19])
+
+            if currentEntry[0, 32] == "":
+
+                currentEntry[0, 32] += "mass using formula [1]"
+
+            else:
+
+                currentEntry[0, 32] += ", mass using formula [1]"
             
         # Converts the log values and errors of BHM, L_bol, Mstar, f_Edd to non-log values
 
@@ -125,6 +133,6 @@ dataframe = pd.DataFrame(data=arrList, columns=columnNames)
 
 print(dataframe)
 
-dataframe.to_csv("out.csv")
+dataframe.to_csv("catalog.csv")
 
 # Consider implementing sorting (by z), dropping duplicates, adding csv for looking at review articles
