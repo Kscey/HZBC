@@ -1,4 +1,7 @@
-# Mapping-the-Titans-Creating-a-Catalog-of-Supermassive-Black-Holes
+# HZBC
+
+The High-Z Black Hole Catalog is a database containing information on over 400 supermassive blackholes with redshift greater than 4 (z > 4) taken from various research papers.
+
 
 Notes:
 
