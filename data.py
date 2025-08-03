@@ -373,7 +373,7 @@ entry36 = np.array([["(Galaxy) J1420+5302/CEERS_01244", "Harikane et al. (2023)"
                      "4.478", "", "", "3.2e7", "0.3e7", "0.2e7", "1.9e45", "3.8e45", "0.6e45",
                      "0.46", "1.04", "0.16", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry37 = np.array([["J0014-3025/GLASS_160133", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -381,7 +381,7 @@ entry37 = np.array([["J0014-3025/GLASS_160133", "Harikane et al. (2023)",
                      "4.015", "", "", "2.3e6", "0.1e6", "0.1e6", "1.1e45", "6.1e45", "0.9e45",
                      "3.68", "21.21", "2.84", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry38 = np.array([["J0014-3025/GLASS_150029", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -389,7 +389,7 @@ entry38 = np.array([["J0014-3025/GLASS_150029", "Harikane et al. (2023)",
                      "4.583", "", "", "3.7e6", "0.2e6", "0.3e6", "9.1e44", "13.8e44", "7.1e44",
                      "1.89", "3.31", "1.49", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry39 = np.array([["(Galaxy) J1419+5252/CEERS_00746/CEERS 3210", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -397,7 +397,7 @@ entry39 = np.array([["(Galaxy) J1419+5252/CEERS_00746/CEERS 3210", "Harikane et 
                      "5.624", "", "", "5.8e7", "1.5e7", "1.3e7", "1.1e46", "0.1e46", "0.2e46",
                      "1.47", "0.60", "0.52", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry40 = np.array([["(Galaxy) J1420+5303/CEERS_01665", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -405,7 +405,7 @@ entry40 = np.array([["(Galaxy) J1420+5303/CEERS_01665", "Harikane et al. (2023)"
                      "4.483", "", "", "1.9e7", "0.8e7", "0.5e7", "4.8e45", "7.2e45", "3.6e45",
                      "1.93", "4.61", "1.59", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry41 = np.array([["J1419+5249/CEERS_00672", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -413,7 +413,7 @@ entry41 = np.array([["J1419+5249/CEERS_00672", "Harikane et al. (2023)",
                      "5.666", "", "", "5.0e7", "1.7e7", "1.3e7", "4.3e45", "0.4e45", "1.4e45",
                      "0.65", "0.31", "0.33", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry42 = np.array([["(Galaxy) J1419+5249/CEERS_02782/CEERS 1670", "Harikane et al. (2023)",
                     "https://arxiv.org/pdf/2303.11946",
@@ -421,7 +421,7 @@ entry42 = np.array([["(Galaxy) J1419+5249/CEERS_02782/CEERS 1670", "Harikane et 
                      "5.241", "", "", "4.2e7", "1.2e7", "1.0e7", "2.8e45", "2.3e45", "1.4e45",
                      "0.51", "0.71", "0.32", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry43 = np.array([["(Galaxy) J1419+5252/CEERS_00397", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -429,7 +429,7 @@ entry43 = np.array([["(Galaxy) J1419+5252/CEERS_00397", "Harikane et al. (2023)"
                      "6.000", "", "", "1.0e7", "0.8e7", "0.5e7", "2.8e45", "14.2e45", "2.2e45",
                      "2.02", "20.68", "1.80", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry44 = np.array([["(Galaxy) J1420+5258/CEERS_00717", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -437,7 +437,7 @@ entry44 = np.array([["(Galaxy) J1420+5258/CEERS_00717", "Harikane et al. (2023)"
                      "6.936", "", "", "9.8e7", "4.4e7", "3.2e7", "7.1e44", "51.8e44", "4.3e44",
                      "0.06", "0.63", "0.04", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry45 = np.array([["(Galaxy) J1420+5258/CEERS_01236", "Harikane et al. (2023)",
                      "https://arxiv.org/pdf/2303.11946",
@@ -445,7 +445,7 @@ entry45 = np.array([["(Galaxy) J1420+5258/CEERS_01236", "Harikane et al. (2023)"
                      "4.484", "", "", "1.8e7", "1.0e7", "0.6e7", "1.8e44", "2.6e44", "0.5e44",
                      "0.08", "0.20", "0.04", "", "", "", "", "", "",
                      "", "", "", "", "", "", "",
-                     ""]])
+                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry46 = np.array([["J1129+1846//P172+18/J172+18/J172.3+18.77", "Banados et al. (2021), Wang et al. (2024)",
                      "https://www.mpg.de/16498963/mpia-pr_banados_quasar_2021_preprint.pdf, https://arxiv.org/html/2404.15413v1#S1",
