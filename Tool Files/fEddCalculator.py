@@ -97,7 +97,9 @@ BH42 = ["ULASJ1319+09", functions.unLog(47.3), functions.unLogUp(47.3, 0.07), fu
 
 BH43 = ["CFHQSJ1509-1", functions.unLog(47.37), functions.unLogUp(47.37, 0.06), functions.unLogDown(47.37, 0.08), functions.unLog(9.3), functions.unLogUp(9.3, 0.15), functions.unLogDown(9.3, 0.17)]
 
+BH44 = ["GLASS_160133", 1.1e45, 6.1e45, 0.9e45, 2.3e6, 0.1e6, 0.1e6]
 
+BH45 = ["CEERS_00397", 2.8e45, 14.2e45, 2.2e45, 1.0e7, 0.8e7, 0.5e7]
 
 
 for i in range(1, 100000):
