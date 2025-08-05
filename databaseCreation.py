@@ -40,7 +40,7 @@ columnNames = ["Name", "Ref",
                "Inst", "RA", "DEC", "Distance",
                "z", "+dz", "-dz", "M [M_sun]", "+dM", "-dM", "L_bol [erg/s]", "+dL_bol", "-dL_bol",
                "f_Edd", "+df_Edd", "-df_Edd", "M1450", "+dM1450", "-dM1450", "F444W", "+dF44W", "-dF444W",
-               "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar [M_sun]",
+               "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar [M_sun]", "+dMstar", "-dMstar",
                "comment"]
 
 arrList = data.entry0
@@ -82,13 +82,13 @@ for i in range(1, 10000):
 
             currentEntry[0, 10] = functions.estimateMassBlackHole(currentEntry[0, 19])
 
-            if currentEntry[0, 32] == "":
+            if currentEntry[0, 34] == "":
 
-                currentEntry[0, 32] += "mass using formula [1]"
+                currentEntry[0, 34] += "mass using formula [1]"
 
             else:
 
-                currentEntry[0, 32] += ", mass using formula [1]"
+                currentEntry[0, 34] += ", mass using formula [1]"
             
         # Converts the log values and errors of BHM, L_bol, Mstar, f_Edd to non-log values
 
@@ -116,6 +116,14 @@ for i in range(1, 10000):
 
             currentEntry[0, 13] = functions.logToValue(currentEntry[0, 13])
 
+        if "log" in currentEntry[0, 32]:
+
+            currentEntry[0, 32] = functions.logToUpperError(currentEntry[0, 31], currentEntry[0, 32])
+
+        if "log" in currentEntry[0, 33]:
+
+            currentEntry[0, 33] = functions.logToLowerError(currentEntry[0, 31], currentEntry[0, 33])
+        
         if "log" in currentEntry[0, 31]:
 
             currentEntry[0, 31] = functions.logToValue(currentEntry[0, 31])
@@ -135,4 +143,3 @@ print(dataframe)
 
 dataframe.to_csv("catalog.csv")
 
-# Consider implementing sorting (by z), dropping duplicates, adding csv for looking at review articles
