@@ -1,55 +1,11 @@
 import numpy as np
 import pandas as pd
 import functions
-import data
+import dataMain
+import dataTentative
+import dataGalaxy
 
-
-# Column names respectively stand for:
-# Name = Name
-# Ref = Reference
-# link = Online link
-# Inst = Observational instrument
-# AC = Right ascension coordinates (***NEW)
-# DEC = Declination coordinates (***NEW)
-# distance = distance (*** NEW)
-# z = Redshift
-# +dz = Redshift upper bound
-# -dz = Redshift lower bound
-# M [M_sun] = Mass (in units of solar mass)
-# +dM = Mass upper bound
-# -dM = Mass lower bound
-# L_bol [ergs/s] = Bolometric luminosity (in units of ergs per second)
-# +dL_bol = Bolometric luminosity upper bound
-# -dL_bol = Bolometric luminosity lower bound
-# f_Edd = Eddington luminosity
-# +dF_Edd = Eddington luminosity upper bound
-# -df_Edd = Eddington luminosity lower bound
-# M1450 = M1450 (***NEW)
-# +dM1450 = M1450 upper bound (***NEW)
-# -dM1450 = M1450 lower bound (***NEW)
-# F444W = F444W (***NEW)
-# +dF44W = F444W upper bound (***NEW)
-# -dF444W = F444W lower bound (***NEW)
-# SFR_TIR = Star formation rate (TIR) (***NEW)
-# +dSFR_TIR = Star formation rate (TIR) upper bound (***NEW)
-# -dSFR_TIR = Star formation rate (TIR) lower bound (***NEW)
-# comment = comments (e.g. origins of data)
-
-columnNames = ["Name", "Ref",
-               "Link",
-               "Inst", "RA", "DEC", "Distance",
-               "z", "+dz", "-dz", "M [M_sun]", "+dM", "-dM", "L_bol [erg/s]", "+dL_bol", "-dL_bol",
-               "f_Edd", "+df_Edd", "-df_Edd", "M1450", "+dM1450", "-dM1450", "F444W", "+dF44W", "-dF444W",
-               "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar [M_sun]", "+dMstar", "-dMstar",
-               "comment"]
-
-arrList = data.entry0
-
-for i in range(1, 10000):
-
-    try:
-
-        currentEntry = eval(f'data.entry{i}')
+def conversion():
 
         # Converts the bolometric luminosities from units of solar luminosities to ergs per second
 
@@ -128,18 +84,118 @@ for i in range(1, 10000):
 
             currentEntry[0, 31] = functions.logToValue(currentEntry[0, 31])
 
+        if "log" in currentEntry[0, 17]:
+
+            currentEntry[0, 17] = functions.logToUpperError(currentEntry[0, 16], currentEntry[0, 17])
+
+        if "log" in currentEntry[0, 18]:
+
+            currentEntry[0, 18] = functions.logToLowerError(currentEntry[0, 16], currentEntry[0, 18])
+
         if "log" in currentEntry[0, 16]:
 
             currentEntry[0, 16] = functions.logToValuef_Edd(currentEntry[0, 16])
 
-        arrList = np.vstack((arrList, currentEntry))
+
+# Column names respectively stand for:
+# Name = Name
+# Ref = Reference
+# link = Online link
+# Inst = Observational instrument
+# AC = Right ascension coordinates (***NEW)
+# DEC = Declination coordinates (***NEW)
+# distance = distance (*** NEW)
+# z = Redshift
+# +dz = Redshift upper bound
+# -dz = Redshift lower bound
+# M [M_sun] = Mass (in units of solar mass)
+# +dM = Mass upper bound
+# -dM = Mass lower bound
+# L_bol [ergs/s] = Bolometric luminosity (in units of ergs per second)
+# +dL_bol = Bolometric luminosity upper bound
+# -dL_bol = Bolometric luminosity lower bound
+# f_Edd = Eddington luminosity
+# +dF_Edd = Eddington luminosity upper bound
+# -df_Edd = Eddington luminosity lower bound
+# M1450 = M1450 (***NEW)
+# +dM1450 = M1450 upper bound (***NEW)
+# -dM1450 = M1450 lower bound (***NEW)
+# F444W = F444W (***NEW)
+# +dF44W = F444W upper bound (***NEW)
+# -dF444W = F444W lower bound (***NEW)
+# SFR_TIR = Star formation rate (TIR) (***NEW)
+# +dSFR_TIR = Star formation rate (TIR) upper bound (***NEW)
+# -dSFR_TIR = Star formation rate (TIR) lower bound (***NEW)
+# comment = comments (e.g. origins of data)
+
+columnNames = ["Name", "Ref",
+               "Link",
+               "Inst", "RA", "DEC", "Distance",
+               "z", "+dz", "-dz", "M [M_sun]", "+dM", "-dM", "L_bol [erg/s]", "+dL_bol", "-dL_bol",
+               "f_Edd", "+df_Edd", "-df_Edd", "M1450", "+dM1450", "-dM1450", "F444W", "+dF44W", "-dF444W",
+               "SFR_CII", "+dSFR_CII", "-dSFR_CII", "SFR_TIR", "+dSFR_TIR", "-dSFR_TIR", "Mstar [M_sun]", "+dMstar", "-dMstar",
+               "comment"]
+
+arrListMain = dataMain.entry0
+
+for i in range(1, 10000):
+
+    try:
+
+        currentEntry = eval(f'dataMain.entry{i}')
+
+        conversion()
+
+        arrListMain = np.vstack((arrListMain, currentEntry))
 
     except:
-        break
+        continue
 
-dataframe = pd.DataFrame(data=arrList, columns=columnNames)
+dataframe = pd.DataFrame(data=arrListMain, columns=columnNames)
+
+dataframe.to_csv("catalogMain.csv")
 
 print(dataframe)
 
-dataframe.to_csv("catalog.csv")
+arrListTentative = dataTentative.entry25
+
+for i in range(1, 10000):
+
+    try:
+
+        currentEntry = eval(f'dataTentative.entry{i}')
+
+        conversion()
+
+        arrListTentative = np.vstack((arrListTentative, currentEntry))
+
+    except:
+        continue
+
+dataframe = pd.DataFrame(data=arrListTentative, columns=columnNames)
+
+dataframe.to_csv("catalogTentative.csv")
+
+print(dataframe)
+
+arrListGalaxy = dataGalaxy.entry8
+
+for i in range(1, 10000):
+
+    try:
+
+        currentEntry = eval(f'dataGalaxy.entry{i}')
+
+        conversion()
+
+        arrListGalaxy = np.vstack((arrListGalaxy, currentEntry))
+
+    except:
+        continue
+
+dataframe = pd.DataFrame(data=arrListGalaxy, columns=columnNames)
+
+dataframe.to_csv("catalogGalaxy.csv")
+
+print(dataframe)
 

@@ -91,47 +91,6 @@ entry7 = np.array([["J1007+2115", "Yang et al. (2020)",
                     "80-520", "", "", "700", "", "", "", "", "",
                     ""]])
 
-entry8 = np.array([["(Galaxy) J0014-3022/UHZ1", "Bogdan et al. (2023), Castellano et al. (2023), Goulding et al. (2023)",
-                    "https://arxiv.org/abs/2305.15458, https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta, https://arxiv.org/pdf/2308.02750",
-                    "JWST", "00:14:16.096", "-30:22:40.285", "",
-                    "10.073", "0.002", "0.002", "4e7", "6e7", "3e7", "5e45", "", "",
-                    "", "", "", "", "", "", "87.7", "7.2", "7.2",
-                    "4.5", "2.9", "2.2", "4.5", "2.9", "2.2", "0.4e8", "1.8e8", "0.2e8",
-                    "F444W, SFR, Mstar from Castellano et al. (2023), z from Goulding et al. (2023)"]])
-
-# F444W, SFR, Mstar from: https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta Castellano et al. (2023)
-# z from: https://arxiv.org/pdf/2308.02750 Goulding et al. (2023)
-
-entry9 = np.array([["(Galaxy) J0013-3020/GHZ9", "Kovacs et al. (2024), Castellano et al. (2023), Atek et al. (2023)",
-                    "https://arxiv.org/abs/2403.14745, https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta, https://arxiv.org/pdf/2305.01793",
-                    "JWST", "00:13:54.90", "-30:20:43.93", "",
-                    "10.37", "0.32", "1.09", "8e7", "3.7e7", "3.2e7", "1e46", "0.5e46", "0.4e46",
-                    "", "", "", "", "", "", "40.9", "3.9", "3.9",
-                    "", "", "", "", "", "", "3.3e8", "2.9e8", "2.4e8",
-                    "F444W, Mstar, SFR [14.4 (+15.0/-7.3)] from Castellano et al. (2023), SFR [0.56 (+0.23/-0.29)] from Atek et al. (2023)"]])
-
-# F444W, Mstar, SFR from: https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta Castellano et al. (2023)
-# SFR from: https://arxiv.org/pdf/2305.01793 Atek et al. (2023)
-
-entry10 = np.array([["(Galaxy) GNz11", "Maiolino et al. (2023), Bunker et al. (2023), Oesch et al. (2016)",
-                     "https://arxiv.org/abs/2305.12492, https://arxiv.org/pdf/2302.07256, https://arxiv.org/pdf/1603.00461",
-                     "JWST", "12:36:25.46", "+62:14:31.40", "",
-                     "10.6", "", "", "1.6e6", "1e0.3", "1e0.3", "1.08e45", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "31", "59", "19", "31", "59", "19", "", "", "",
-                     "SFR from Bunker et al. (2023), coordinates from Oesch et al. (2016)"]])
-
-# SFR from: https://arxiv.org/pdf/2302.07256 Bunker et al. (2023)
-# Coordinates from: https://arxiv.org/pdf/1603.00461 Oesch et al. (2016)
-
-entry11 = np.array([["(Galaxy) J1420+5253/CEERS_01019/CEERS_1019", "Larson et al. (2023)",
-                     "https://arxiv.org/abs/2303.08918",
-                     "JWST", "14:20:08.49", "+52:53:26.38", "",
-                     "8.679", "0.09", "0.15", "log6.95", "log0.37", "log0.37", "log45.1", "log0.2", "log0.2",
-                     "1.2", "0.5", "0.5", "", "", "", "", "", "",
-                     "30", "", "", "30", "", "", "", "", "",
-                     ""]])
-
 entry12 = np.array([["J1205−0000", "Onoue et al. (2019), Sawamura et al. (2025), Izumi et al. (2021)",
                      "https://arxiv.org/abs/1904.07278, https://arxiv.org/pdf/2502.16858, https://iopscience.iop.org/article/10.3847/1538-4357/abd7ef",
                      "HSC", "12:05:05.09", "-00:00:27.90", "",
@@ -259,14 +218,6 @@ entry24 = np.array([["J1236+6213/JADES-GN+189.17974+62.22463/GN-1093/1093", "Mai
 
 # coordinates, z, mass, L_bol, f_Edd from: https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025)
 
-entry25 = np.array([["(Tentative) J1236+6214/JADES-GN+189.11794+62.23552/3608", "Maiolino et al. (2024)",
-                     "https://arxiv.org/abs/2308.01230",
-                     "JWST", "", "", "",
-                     "5.26894", "", "", "6.60693e6", "9.242e6", "3.51664e6", "1.e44", "", "",
-                     "0.11", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log8.38", "log0.11", "log0.15",
-                     "tentative source according to https://arxiv.org/html/2504.03551v1 Juodžbalis et al. (2025), little red dot"]])
-
 entry26 = np.array([["J0332-2748/JADES-GS+53.13284-27.80186/GS-8083/8083", "Maiolino et al. (2024), Juodžbalis et al. (2025)",
                      "https://arxiv.org/abs/2308.01230, https://arxiv.org/html/2504.03551v1",
                      "JWST", "03:32:31.88", "-27:48:06.70", "",
@@ -366,86 +317,6 @@ entry35 = np.array([["J0332-2753/GS_3073", "Ubler et al. (2023), Barchiesi et al
                      "use H-alpha for mass, use geometric mean of two method for L_bol, SFR [90 (+30/-30)] from Barchiesi et al. (2022)"]])
 
 # SFR from: https://arxiv.org/pdf/2212.00038 Barchiesi et al. (2022)
-
-entry36 = np.array([["(Galaxy) J1420+5302/CEERS_01244", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:20:57.76", "+53:02:09.80", "",
-                     "4.478", "", "", "3.2e7", "0.3e7", "0.2e7", "1.9e45", "3.8e45", "0.6e45",
-                     "0.46", "1.04", "0.16", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry37 = np.array([["(Galaxy) J0014-3025/GLASS_160133", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "00:14:19.27", "-30:25:27.80", "",
-                     "4.015", "", "", "2.3e6", "0.1e6", "0.1e6", "1.1e45", "6.1e45", "0.9e45",
-                     "3.68", "21.21", "2.84", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry38 = np.array([["(Galaxy) J0014-3025/GLASS_150029", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "00:14:18.52", "-30:25:21.30", "",
-                     "4.583", "", "", "3.7e6", "0.2e6", "0.3e6", "9.1e44", "13.8e44", "7.1e44",
-                     "1.89", "3.31", "1.49", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry39 = np.array([["(Galaxy) J1419+5252/CEERS_00746/CEERS 3210", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:19:14.19", "+52:52:06.05", "",
-                     "5.624", "", "", "5.8e7", "1.5e7", "1.3e7", "1.1e46", "0.1e46", "0.2e46",
-                     "1.47", "0.60", "0.52", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry40 = np.array([["(Galaxy) J1420+5303/CEERS_01665", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:20:42.77", "+53:03:33.07", "",
-                     "4.483", "", "", "1.9e7", "0.8e7", "0.5e7", "4.8e45", "7.2e45", "3.6e45",
-                     "1.93", "4.61", "1.59", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry41 = np.array([["(Galaxy) J1419+5249/CEERS_00672", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:19:33.52", "+52:49:58.07", "",
-                     "5.666", "", "", "5.0e7", "1.7e7", "1.3e7", "4.3e45", "0.4e45", "1.4e45",
-                     "0.65", "0.31", "0.33", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry42 = np.array([["(Galaxy) J1419+5249/CEERS_02782/CEERS 1670", "Harikane et al. (2023)",
-                    "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:19:17.63", "+52:49:49.00", "",
-                     "5.241", "", "", "4.2e7", "1.2e7", "1.0e7", "2.8e45", "2.3e45", "1.4e45",
-                     "0.51", "0.71", "0.32", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry43 = np.array([["(Galaxy) J1419+5252/CEERS_00397", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:19:20.69", "+52:52:57.07", "",
-                     "6.000", "", "", "1.0e7", "0.8e7", "0.5e7", "2.8e45", "14.2e45", "2.2e45",
-                     "2.02", "20.68", "1.80", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry44 = np.array([["(Galaxy) J1420+5258/CEERS_00717", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:20:19.54", "+52:58:19.09", "",
-                     "6.936", "", "", "9.8e7", "4.4e7", "3.2e7", "7.1e44", "51.8e44", "4.3e44",
-                     "0.06", "0.63", "0.04", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
-
-entry45 = np.array([["(Galaxy) J1420+5258/CEERS_01236", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:20:34.87", "+52:58:02.02", "",
-                     "4.484", "", "", "1.8e7", "1.0e7", "0.6e7", "1.8e44", "2.6e44", "0.5e44",
-                     "0.08", "0.20", "0.04", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "+df_Edd may be unusually large because Harikane et al. (2023) estimates L_bol and -dL_bol using equation 17 but estimates +dL_bol using equation 18"]])
 
 entry46 = np.array([["J1129+1846//P172+18/J172+18/J172.3+18.77", "Banados et al. (2021), Wang et al. (2024)",
                      "https://www.mpg.de/16498963/mpia-pr_banados_quasar_2021_preprint.pdf, https://arxiv.org/html/2404.15413v1#S1",
@@ -1169,14 +1040,6 @@ entry119 = np.array([["J1525+4303", "Matsuoka et al. (2019)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry120 = np.array([["(Tentative) J0905+0300", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "09:05:44.65", "+03:00:58.80", "",
-                     "6.27", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.55", "0.11", "0.11", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry121 = np.array([["J1146+0124", "Matsuoka et al. (2018)",
                      "https://arxiv.org/pdf/1803.01861",
                      "HSC", "11:46:48.42", "+01:24:20.10", "",
@@ -1267,14 +1130,6 @@ entry130 = np.array([["J0136+0226", "Banados et al. (2016), Shen et al. (2019)",
 
 # z from: https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf Shen et al. (2019)
 
-entry131 = np.array([["(Tentative) J0217-0208", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "02:17:21.59", "-02:08:52.60", "",
-                     "6.20", "", "", "", "", "", "", "", "",
-                     "", "", "", "-23.19", "0.04", "0.04", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry132 = np.array([["J1217+0131/J184.3+01.52", "Banados et al. (2016), Wang et al. (2018)",
                      "https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/1703.07490",
                      "PSO", "12:17:21.34", "+01:31:42.47", "",
@@ -1356,14 +1211,6 @@ entry140 = np.array([["J0844-0132", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry141 = np.array([["(Tentative) J2232+0012", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "22:32:12.03", "+00:12:38.40", "",
-                     "6.18", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.81", "0.10", "0.10", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry142 = np.array([["J0221-0802", "Banados et al. (2016), Shen et al. (2019)",
                      "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf",
                      "CFHQS", "02:21:22.71", "-08:02:51.50", "",
@@ -1373,14 +1220,6 @@ entry142 = np.array([["J0221-0802", "Banados et al. (2016), Shen et al. (2019)",
                      "z from Shen et al. (2019)"]])
 
 # z from: https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf Shen et al. (2019)
-
-entry143 = np.array([["(Tentative) J2201+0155", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "22:01:32.07", "+01:55:29.00", "",
-                     "6.16", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.97", "0.04", "0.04", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
 
 entry144 = np.array([["J1146-0154", "Matsuoka et al. (2016)",
                      "https://arxiv.org/pdf/1803.01861",
@@ -1540,22 +1379,6 @@ entry160 = np.array([["J1254-0014", "Matsuoka et al. (2019)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry161 = np.array([["(Tentative) J1440-0107", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "14:40:01.30", "-01:07:02.20", "",
-                     "6.13", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.59", "0.10", "0.10", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
-entry162 = np.array([["(Tentative) J1423-0018", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "14:23:31.71", "-00:18:09.10", "",
-                     "6.13", "", "", "", "", "", "", "", "",
-                     "", "", "", "-21.88", "0.20", "0.20", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry163 = np.array([["J0033-0125", "Banados et al. (2016), Shen et al. (2019)",
                      "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf",
                      "CFHQS", "00:33:11.40", "-01:25:24.90", "",
@@ -1665,14 +1488,6 @@ entry174 = np.array([["J1406-0144", "Matsuoka et al. (2018)",
                      "HSC", "14:06:46.88", "-01:44:02.60", "",
                      "6.10", "", "", "", "", "", "", "", "",
                      "", "", "", "-23.37", "0.16", "0.16", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
-entry175 = np.array([["(Tentative) J0235-0532", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "02:35:42.42", "-05:32:41.60", "",
-                     "6.09", "", "", "", "", "", "", "", "",
-                     "", "", "", "-23.01", "0.05", "0.05", "", "", "",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
@@ -1954,14 +1769,6 @@ entry206 = np.array([["J0202-0251", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry207 = np.array([["(Tentative) J1416+0015", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "14:16:12.71", "+00:15:46.20", "",
-                     "6.03", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.39", "0.10", "0.10", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry208 = np.array([["J1137+3549", "Banados et al. (2016), Ishimoto et al. (2020), Shen et al. (2019)",
                      "https://arxiv.org/pdf/1608.03279, https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf, https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf",
                      "SDSS/UHS", "11:37:17.73", "+35:49:56.85", "",
@@ -1982,14 +1789,6 @@ entry209 = np.array([["J2215+2606/P333+26/J333.9+26.10", "Banados et al. (2016),
                      "z from Shen et al. (2019)"]])
 
 # z from: https://iopscience.iop.org/article/10.3847/1538-4357/ab03d9/pdf Shen et al. (2019)
-
-entry210= np.array([["(Tentative) J1417+0117", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "14:17:28.67", "+01:17:12.40", "",
-                     "6.02", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.83", "0.05", "0.05", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
 
 entry211 = np.array([["J0818+1722/J0818+17", "Banados et al. (2016), D'Odorico et al. (2023), Mazzucchelli et al. (2023)",
                      "https://arxiv.org/pdf/1608.03279, https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/2306.16474",
@@ -2043,14 +1842,6 @@ entry215 = np.array([["J0902+0155", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry216 = np.array([["(Tentative) J0853+0139", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1704.05854",
-                     "HSC", "08:53:48.84", "+01:39:11.00", "",
-                     "6.01", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.51", "0.14", "0.14", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry217 = np.array([["J2240-1839/P340–18/J340.2-18.66", "Decarli et al. (2018), Chehade etal. (2018)",
                      "https://iopscience.iop.org/article/10.3847/1538-4357/aaa5aa, https://academic.oup.com/mnras/article/478/2/1649/4944228",
                      "PSO", "22:40:48.997", "−18:39:43.81", "",
@@ -2069,14 +1860,6 @@ entry218 = np.array([["J1219+0050", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry219 = np.array([["(Tentative) J1207-0005", "Matsuoka et al. (2016)",
-                     "https://iopscience.iop.org/article/10.3847/0004-637X/828/1/26",
-                     "HSC", "12:07:54.14", "-00:05:53.30", "",
-                     "6.01", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.59", "0.08", "0.08", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry220 = np.array([["J0216-0455", "Willott et al. (2009), Banados et al. (2016)",
                      "https://iopscience.iop.org/article/10.1088/0004-6256/137/3/3541, https://arxiv.org/pdf/1608.03279",
                      "CFHQS", "02:16:27.81", "-04:55:34.10", "",
@@ -2086,14 +1869,6 @@ entry220 = np.array([["J0216-0455", "Willott et al. (2009), Banados et al. (2016
                      ""]])
 
 # M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
-
-entry221 = np.array([["(Tentative) J2228+0128", "Matsuoka et al. (2016)",
-                     "https://iopscience.iop.org/article/10.3847/0004-637X/828/1/26",
-                     "HSC", "22:28:27.83", "+01:28:09.50", "",
-                     "6.01", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.40", "0.12", "0.12", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
 
 entry222 = np.array([["J1426-0128", "Matsuoka et al. (2019)",
                      "https://arxiv.org/pdf/1908.07910",
@@ -2922,46 +2697,6 @@ entry312 = np.array([["J0430−1445", "Wang et al. (2024)",
                      "159-994", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry313 = np.array([["(Galaxy) J0014-3022/GHZ1", "Castellano et al. (2023)",
-                     "https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta",
-                     "JWST", "00:14:02.86", "-30:22:18.69", "",
-                     "10.47", "0.38", "0.89", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "111.8", "4.4", "4.4",
-                     "10.7", "42.7", "4.7", "10.7", "42.7", "4.7", "11.5e8", "7.1e8", "10.3e8",
-                     ""]])
-
-entry314 = np.array([["(Galaxy) J0014-3021/GHZ4", "Castellano et al. (2023)",
-                     "https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta",
-                     "JWST", "00:14:03.30", "-30:21:05.62", "",
-                     "10.27", "1.2", "1.4", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "41.7", "3.1", "3.1",
-                     "2.0", "14.2", "0.4", "2.0", "14.2", "0.4", "4.3e8", "1.5e8", "3.9e8",
-                     ""]])
-
-entry315 = np.array([["(Galaxy) J0013-3019/GHZ7", "Castellano et al. (2023)",
-                     "https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta",
-                     "JWST", "00:13:48.33", "-30:19:14.58", "",
-                     "10.62", "0.55", "1.02", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "28.8", "3.6", "3.6",
-                     "3.2", "10.0", "0.5", "3.2", "10.0", "0.5", "2.1e8", "1.8e8", "1.7e8",
-                     ""]])
-
-entry316 = np.array([["(Galaxy) J0013-3019/GHZ8", "Castellano et al. (2023)",
-                     "https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta",
-                     "JWST", "00:13:48.34", "-30:19:18.47", "",
-                     "10.85", "0.45", "0.57", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "53.7", "5.2", "5.2",
-                     "17.5", "13.6", "12.3", "17.5", "13.6", "12.3", "0.8e8", "6.4e8", "0.16e8",
-                     ""]])
-
-entry317 = np.array([["(Galaxy) J0014-3025/DHZ1", "Castellano et al. (2023)",
-                     "https://iopscience.iop.org/article/10.3847/2041-8213/accea5/meta",
-                     "JWST", "00:14:28.14", "-30:25:32.03", "",
-                     "9.3127", "0.0002", "0.0002", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "353.3", "17.9", "17.9",
-                     "25.4", "3.2", "4.3", "25.4", "3.2", "4.3", "25e8", "6.6e8", "5.0e8",
-                     ""]])
-
 entry318 = np.array([["J1202−0057", "Ishimoto et al. (2020)",
                      "https://iopscience.iop.org/article/10.3847/1538-4357/abb80b/pdf",
                      "HSC", "12:02:46.37", "-00:57:01.70", "",
@@ -3085,46 +2820,6 @@ entry331 = np.array([["J1236+6213/JADES GN+189.09144+62.22811 1001830/GN-38509/3
 
 # z, SFR from: https://www.nature.com/articles/s41586-024-08210-5#Sec2 Juodžbalis et al. (2024)
 
-entry332 = np.array([["(Tentative) J0332-2748/GS-200679/200679", "Juodžbalis et al. (2025)",
-                     "https://arxiv.org/html/2504.03551v1",
-                     "JWST", "10:12:27.34", "-27:48:22.32", "",
-                     "4.547", "", "", "log6.19", "log0.60", "log0.30", "log43.63", "log0.09", "log0.39",
-                     "0.23", "0.02", "0.19", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log8.53", "log0.13", "log0.13",
-                     ""]])
-
-entry333 = np.array([["(Tentative) J0332-2751/GS-20057765/20057765", "Juodžbalis et al. (2025)",
-                     "https://arxiv.org/html/2504.03551v1",
-                     "JWST", "03:32:09.79", "-27:51:32.44", "",
-                     "8.913", "", "", "log7.33", "log0.62", "log0.70", "log44.16", "log0.19", "log0.30",
-                     "0.051", "0.090", "0.036", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log8.08", "log0.30", "log0.30",
-                     ""]])
-
-entry334 = np.array([["(Tentative) J0332-2752/GS-20030333/20030333", "Juodžbalis et al. (2025)",
-                     "https://arxiv.org/html/2504.03551v1",
-                     "JWST", "03:32:12.90", "-27:52:40.40", "",
-                     "7.891", "", "", "log7.42", "log0.65", "log0.48", "log44.44", "log0.11", "log0.14",
-                     "0.08", "0.078", "0.056", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log8.24", "log0.08", "log0.08",
-                     ""]])
-
-entry335 = np.array([["(Tentative) J0332-2753/GS-164055/164055", "Juodžbalis et al. (2025)",
-                     "https://arxiv.org/html/2504.03551v1",
-                     "JWST", "03:32:19.60", "-27:53:18.85", "",
-                     "7.397", "", "", "log7.63", "log0.59", "log0.66", "log44.21", "log0.16", "log0.21",
-                     "0.03", "0.048", "0.020", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log7.99", "log0.23", "log0.23",
-                     ""]])
-
-entry336 = np.array([["(Tentative) J1236+6214/GN-4685/4685", "Juodžbalis et al. (2025)",
-                     "https://arxiv.org/html/2504.03551v1",
-                     "JWST", "12:36:23.11", "+62:14:20.90", "",
-                     "7.415", "", "", "log7.36", "log0.45", "log0.42", "log44.13", "log0.10", "log0.12",
-                     "0.045", "0.020", "0.020", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "log9.91", "log0.22", "log0.21",
-                     ""]])
-
 entry337 = np.array([["J0132-0216/J023-02/J023.0-02.26", "D'Odorico et al. (2023), Banados et al. (2016), Mazzucchelli et al. (2023)",
                      "https://academic.oup.com/mnras/article/523/1/1399/7172883, https://arxiv.org/pdf/1608.03279, https://arxiv.org/pdf/2306.16474",
                      "PSO", "01:32:01.70", "-02:16:03.11", "",
@@ -3211,14 +2906,6 @@ entry344 = np.array([["J2033-2738/J308-27/J308.4-27.64", "D'Odorico et al. (2023
 
 # M1450 from: https://arxiv.org/pdf/1608.03279 Banados et al. (2016)
 # L_bol, f_Edd from: https://arxiv.org/pdf/2306.16474 Mazzucchelli et al. (2023)
-
-entry345 = np.array([["(Tentative/Galaxy) J1419+5253/CEERS_01465", "Harikane et al. (2023)",
-                     "https://arxiv.org/pdf/2303.11946",
-                     "JWST", "14:19:33.12", "+52:53:17.70", "",
-                     "5.274", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
 
 entry346 = np.array([["J1210+0134", "Matsuoka et al. (2019)",
                      "https://arxiv.org/pdf/1908.07910",
@@ -3316,14 +3003,6 @@ entry357 = np.array([["J0858+0000", "Matsuoka et al. (2018)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry358 = np.array([["(Tentative) J0220−0432", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1803.01861",
-                     "HSC", "02:20:29.72", "-04:32:04.00", "",
-                     "5.90", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.17", "0.10", "0.10", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
 entry359 = np.array([["J1422+0011", "Matsuoka et al. (2018)",
                      "https://arxiv.org/pdf/1803.01861",
                      "HSC", "14:22:00.23", "+00:11:03.00", "",
@@ -3337,14 +3016,6 @@ entry360 = np.array([["J2231−0035", "Matsuoka et al. (2018)",
                      "HSC", "22:31:48.89", "-00:35:47.50", "",
                      "5.87", "", "", "", "", "", "", "", "",
                      "", "", "", "-22.67", "0.10", "0.10", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     ""]])
-
-entry361 = np.array([["(Tentative) J1209−0006", "Matsuoka et al. (2018)",
-                     "https://arxiv.org/pdf/1803.01861",
-                     "HSC", "12:09:23.99", "-00:06:46.50", "",
-                     "5.86", "", "", "", "", "", "", "", "",
-                     "", "", "", "-22.51", "0.05", "0.05", "", "", "",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
@@ -4270,158 +3941,6 @@ entry474 = np.array([["J2315–2856", "Banados et al. (2023)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry475 = np.array([["(Galaxy) J1237+6212/GOODS-N-4014", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:37:12.03", "+62:12:43.36", "",
-                     "5.228", "", "", "log7.58", "log0.08", "log0.08", "9.3e44", "0.5e44", "0.5e44",
-                     "", "", "", "", "", "", "389.3", "13.4", "13.4",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry476 = np.array([["(Galaxy) J1237+6214/GOODS-N-9771", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:37:07.44", "+62:14:50.31", "",
-                     "5.538", "", "", "log8.55", "log0.03", "log0.03", "65.8e44", "1.6e44", "1.6e44",
-                     "", "", "", "", "", "", "2494.8", "124.7", "124.7",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry477 = np.array([["(Galaxy) J1237+6215/GOODS-N-12839", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:37:22.63", "+62:15:48.11", "",
-                     "5.241", "", "", "log8.01", "log0.06", "log0.06", "31.2e44", "1.2e44", "1.2e44",
-                     "", "", "", "", "", "", "1250.3", "62.5", "62.5",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry478 = np.array([["(Galaxy) J1236+6216/GOODS-N-13733", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:36:13.70", "+62:16:08.18", "",
-                     "5.236", "", "", "log7.49", "log0.10", "log0.10", "5.2e44", "0.3e44", "0.3e44",
-                     "", "", "", "", "", "", "245.8", "12.3", "12.3",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry479 = np.array([["(Galaxy) J1236+6216/GOODS-N-14409", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:36:17.30", "+62:16:24.35", "",
-                     "5.139", "", "", "log7.21", "log0.14", "log0.14", "7.4e44", "0.9e44", "0.9e44",
-                     "", "", "", "", "", "", "224.3", "11.2", "11.2",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry480 = np.array([["(Galaxy) J1237+6216/GOODS-N-15498", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:37:08.53", "+62:16:50.82", "",
-                     "5.086", "", "", "log7.71", "log0.11", "log0.11", "10.4e44", "1.9e44", "1.9e44",
-                     "", "", "", "", "", "", "488.7", "24.4", "24.4",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry481 = np.array([["(Galaxy) J1236+6217/GOODS-N-16813", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "12:36:43.03", "+62:17:33.12", "",
-                     "5.355", "", "", "log7.55", "log0.12", "log0.12", "9.1e44", "1.0e44", "1.0e44",
-                     "", "", "", "", "", "", "439.2", "22.0", "22.0",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry482 = np.array([["(Galaxy) J1148+5254/J1148-7111", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "11:48:24.41", "+52:54:28.66", "",
-                     "4.339", "", "", "log7.92", "log0.10", "log0.10", "10.8e44", "0.8e44", "0.8e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry483 = np.array([["(Galaxy) J1148+5251/J1148-18404", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "11:48:13.91", "+52:51:46.09", "",
-                     "5.011", "", "", "log7.79", "log0.14", "log0.14", "6.9e44", "1.4e44", "1.4e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry484 = np.array([["(Galaxy) J1148+5250/J1148-21787", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "11:48:05.14", "+52:50:01.04", "",
-                     "4.277", "", "", "log7.59", "log0.18", "log0.18", "6.7e44", "1.6e44", "1.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry485 = np.array([["(Galaxy) J0100+2804/J0100-2017", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:00:13.93", "+28:04:20.69", "",
-                     "4.938", "", "", "log7.44", "log0.11", "log0.11", "6.7e44", "0.8e44", "0.8e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry486 = np.array([["(Galaxy) J0100+2800/J0100-12446", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:00:11.58", "+28:00:34.98", "",
-                     "4.699", "", "", "log7.46", "log0.06", "log0.06", "12.9e44", "0.6e44", "0.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry487 = np.array([["(Galaxy) J0100+2803/J0100-15157", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:00:07.26", "+28:03:00.64", "",
-                     "4.941", "", "", "log7.35", "log0.08", "log0.08", "6.5e44", "0.6e44", "0.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry488 = np.array([["(Galaxy) J0100+2803/J0100-16221", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:00:08.17", "+28:03:05.68", "",
-                     "4.349", "", "", "log7.53", "log0.07", "log0.07", "7.1e44", "0.6e44", "0.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry489 = np.array([["(Galaxy) J0148+0557/J0148-976", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:48:35.08", "+05:57:20.97", "",
-                     "4.163", "", "", "log7.11", "log0.18", "log0.18", "5.2e44", "0.7e44", "0.7e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry490 = np.array([["(Galaxy) J0148+0559/J0148-4214", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:48:33.29", "+05:59:50.04", "",
-                     "5.019", "", "", "log7.32", "log0.10", "log0.10", "5.9e44", "0.4e44", "0.4e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry491 = np.array([["(Galaxy) J0148+0600/J0148-12884", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "01:48:41.58", "+06:00:57.30", "",
-                     "4.602", "", "", "log6.91", "log0.15", "log0.15", "5.0e44", "0.6e44", "0.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry492 = np.array([["(Galaxy) J1119+0639/J1120-7546", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "11:19:59.86", "+06:39:17.01", "",
-                     "4.967", "", "", "log7.56", "log0.11", "log0.11", "13.8e44", "1.6e44", "1.6e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
-entry493 = np.array([["(Galaxy) J1120+0643/J1120-14389", "Matthee et al. (2024)",
-                     "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
-                     "JWST", "11:20:00.89", "+06:43:10.42", "",
-                     "4.897", "", "", "log7.65", "log0.07", "log0.07", "8.4e44", "0.8e44", "0.8e44",
-                     "", "", "", "", "", "", "", "", "",
-                     "", "", "", "", "", "", "", "", "",
-                     "little red dot"]])
-
 entry494 = np.array([["J0008+3616", "Ross et al. (2020)",
                      "https://arxiv.org/pdf/1906.06974",
                      "SDWISE", "00:08:51.43", "+36:16:13.48", "",
@@ -4651,6 +4170,310 @@ entry522 = np.array([["J2336+1842", "Gloudemans et al. (2022)",
                      "DESI+LoTSS", "23:36:24.69", "+18:42:48.71", "",
                      "6.60", "0.04", "0.04", "", "", "", "", "", "",
                      "", "", "", "-24.32", "0.13", "-1.44", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry523 = np.array([["J0020+0933", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "00:20:35.45", "+09:33:29.61", "",
+                     "7.011244774", "", "", "log9.12825461526775", "log0.245693528091933", "log0.245693528091933", "log45.2695745663521", "log0.0500803690275297", "log0.0500803690275297",
+                     "log-1.97262340122246", "log0.250745594394388", "log0.250745594394388", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry524 = np.array([["J0100+0950", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "01:00:19.44", "+09:50:10.85", "",
+                     "7.01124477386474", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry525 = np.array([["J0115-0519", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "01:15:06.77", "-05:19:25.38", "",
+                     "7.01124477386474", "", "", "log9.50876154709652", "log0.162360682877661", "log0.162360682877661", "log46.0324874610994", "log0.0033773189896244", "log0.0033773189896244",
+                     "log-1.59021743830388", "log0.162395805450936", "log0.162395805450936", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry526 = np.array([["J0134+1615", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "01:34:22.90", "+16:15:23.59", "",
+                     "7.011244774", "", "", "log8.809766076", "log0.072721707", "log0.072721707", "log45.18231068", "log0.022407433", "log0.022407433",
+                     "log-1.741398748", "log0.076095596", "log0.076095596", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry527 = np.array([["J0157+0706", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "01:57:30.10", "07:06:07.22", "",
+                     "7.011244774", "", "", "log9.808902862", "log0.22980849", "log0.22980849", "log46.26658727", "log0.006524471", "log0.006524471",
+                     "log-1.65625894", "log0.229901089", "log0.229901089", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry528 = np.array([["J0202+1130", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "02:02:02.37", "11:30:58.92", "",
+                     "7.011244774", "", "", "log9.325818913", "log0.380586717", "log0.380586717", "log45.15343335", "log0.020174285", "log0.020174285",
+                     "log-2.286328913", "log0.381121045", "log0.381121045", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry529 = np.array([["J0204+2540", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "02:04:51.14", "25:40:03.31", "",
+                     "7.011244774", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry530 = np.array([["J0217-0526", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "02:17:56.27", "-05:26:03.22", "",
+                     "7.007658958", "", "", "log8.894198053", "log0.412573966", "log0.412573966", "log44.55530341", "log0.094783522", "log0.094783522",
+                     "log-2.45283799", "log0.423321619", "log0.423321619", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry531 = np.array([["J0250-0328", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "02:50:01.55", "-03:28:42.03", "",
+                     "7.006299496", "", "", "log9.206762544", "log0.195555781", "log0.195555781", "log45.55423527", "log0.024827486", "log0.024827486",
+                     "log-1.766470623", "log0.197125512", "log0.197125512", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry532 = np.array([["J0259-0522", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "02:59:41.57", "-05:22:30.61", "",
+                     "7.002699852", "", "", "", "", "", "log45.23234933", "log0.002147692", "log0.002147692",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry533 = np.array([["J0807+3159", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:07:33.30", "+31:59:20.01", "",
+                     "7.004497528", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry534 = np.array([["J0814+4130", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:14:04.99", "41:30:48.68", "",
+                     "7.014979839", "", "", "log7.752368213", "log1.354757787", "log1.354757787", "log45.34195415", "log0.015582097", "log0.015582097",
+                     "log-0.524357412", "log1.354847395", "log1.354847395", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry535 = np.array([["J0834+3031", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:34:29.23", "+30:31:29.27", "",
+                     "7.008605957", "", "", "log7.833654589", "log0.116487572", "log0.116487572", "log45.0916378", "log0.021827767", "log0.021827767",
+                     "log-0.855960143", "log0.118515003", "log0.118515003", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry536 = np.array([["J0843+1853", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:43:18.59", "+18:53:43.43", "",
+                     "7.00978756", "", "", "log8.647805308", "log0.096264583", "log0.096264583", "log45.29578384", "log0.01668716", "log0.01668716",
+                     "log-1.465964822", "log0.097700211", "log0.097700211", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry537 = np.array([["J0844+2036", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:44:36.75", "+20:36:37.97", "",
+                     "7.007556438", "", "", "log8.484683393", "log0.092884395", "log0.092884395", "log45.34751096", "log0.005702479", "log0.005702479",
+                     "log-1.251115783", "log0.093059278", "log0.093059278", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry538 = np.array([["J0859+1952", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "08:59:52.03", "+19:52:01.73", "",
+                     "7.014935017", "", "", "log8.319152408", "log0.263957608", "log0.263957608", "log45.03677401", "log0.012299353", "log0.012299353",
+                     "log-1.396321754", "log0.264244003", "log0.264244003", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry539 = np.array([["J0916+3102", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "09:16:14.47", "+31:02:41.82", "",
+                     "7.011244774", "", "", "log8.400022231", "log0.271930481", "log0.271930481", "log45.12694926", "log0.01484452", "log0.01484452",
+                     "log-1.387016321", "log0.272335356", "log0.272335356", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry540 = np.array([["J0944+2557", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "09:44:53.76", "+25:57:40.01", "",
+                     "7.011244774", "", "", "log8.698162682", "log0.12724823", "log0.12724823", "log45.85505979", "log0.005972173", "log0.005972173",
+                     "log-0.957046242", "log0.1273883", "log0.1273883", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry541 = np.array([["J1103+3555", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "11:03:55.68", "+35:55:35.68", "",
+                     "7.006673813", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry542 = np.array([["J1136+0424", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "11:36:52.51", "+04:24:28.61", "",
+                     "7.009515762", "", "", "log8.594807999", "log0.371037777", "log0.371037777", "log45.37878934", "log0.021774152", "log0.021774152",
+                     "log-1.329962007", "log0.37167613", "log0.37167613", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry543 = np.array([["J1432+4958", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "14:32:49.27", "+49:58:54.80", "",
+                     "7.011244774", "", "", "log8.132971709", "log0.210050423", "log0.210050423", "log45.74978775", "log0.005273532", "log0.005273532",
+                     "log-0.497127308", "log0.210116611", "log0.210116611", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry544 = np.array([["J1434+4116", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "14:34:16.59", "+41:16:47.66", "",
+                     "7.005111217", "", "", "log8.082664573", "log0.167432664", "log0.167432664", "log46.19619523", "log0.00510544", "log0.00510544",
+                     "log-0.000412698", "0.167510484", "0.167510484", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry545 = np.array([["J1512+5750", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "15:12:57.07", "+57:50:08.08", "",
+                     "7.011244774", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry546 = np.array([["J1541+3610", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "15:41:32.06", "+36:10:19.02", "",
+                     "7.011244774", "", "", "log8.660545037", "log0.216626136", "log0.216626136", "log45.11242299", "log0.009762136", "log0.009762136",
+                     "log-1.662065401", "log0.216845987", "log0.216845987", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry547 = np.array([["J1715+3852", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "17:15:27.30", "+38:52:00.66", "",
+                     "7.011244774", "", "", "", "", "", "log44.6852531", "log0.005244383", "log0.005244383",
+                     "", "", "", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry548 = np.array([["J2108+0705", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "21:08:53.45", "+07:05:21.87", "",
+                     "7.011244774", "", "", "log9.633282407", "log0.122819995", "log0.122819995", "log46.04137179", "log0.01669677", "log0.01669677",
+                     "log-1.705853973", "log0.123949721", "log0.123949721", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry549 = np.array([["J2128+0342", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "21:28:09.06", "+03:42:34.52", "",
+                     "7.011244774", "", "", "log8.556559253", "log0.062810624", "log0.062810624", "log45.71240009", "log0.005008275", "log0.005008275",
+                     "log-0.958102517", "log0.063009978", "log0.063009978", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry550 = np.array([["J2211+2604", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "22:11:34.90", "+26:04:19.15", "",
+                     "7.011244774", "", "", "log8.925885236", "log0.238086595", "log0.238086595", "log45.65920874", "log0.007906134", "log0.007906134",
+                     "log-1.380619849", "log0.238217828", "log0.238217828", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry551 = np.array([["J2212+2609", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "22:12:48.16", "+26:09:58.71", "",
+                     "7.023917198", "", "", "log7.547162418", "log0.062724096", "log0.062724096", "log45.4939732", "log0.006164263", "log0.006164263",
+                     "log-0.167132575", "log0.063026267", "log0.063026267", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry552 = np.array([["J2214+0115", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "22:14:49.39", "+01:15:25.44", "",
+                     "7.001978397", "", "", "log8.860020257", "log0.24629375", "log0.24629375", "log45.30953124", "log0.003316008", "log0.003316008",
+                     "log-1.664432371", "log0.246316072", "log0.246316072", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry553 = np.array([["J2232+2310", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "22:32:44.30", "+23:10:33.27", "",
+                     "7.011244774", "", "", "log9.274595822", "log0.113339119", "log0.113339119", "log45.76330841", "log0.005863206", "log0.005863206",
+                     "log-1.625230766", "log0.113490674", "log0.113490674", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry554 = np.array([["J2247+2753", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "22:47:05.01", "+27:53:41.12", "",
+                     "7.011244774", "", "", "log8.11236035", "log0.150864044", "log0.150864044", "log45.67321238", "log0.007275108", "log0.007275108",
+                     "log-0.553091326", "log0.151039356", "log0.151039356", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry555 = np.array([["J2321+0716", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:21:22.57", "+07:16:00.81", "",
+                     "7.010421753", "", "", "log9.033840866", "log0.085019626", "log0.085019626", "log45.71545596", "log0.004635589", "log0.004635589",
+                     "log-1.432328256", "log0.085145907", "log0.085145907", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry556 = np.array([["J2322+0601", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:22:20.70", "+06:01:12.23", "",
+                     "7.011244774", "", "", "log8.432496978", "log0.14054074", "log0.14054074", "log44.65451594", "log0.02620864", "log0.02620864",
+                     "log-1.891924389", "log0.142963606", "log0.142963606", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry557 = np.array([["J2324+0013", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:24:37.84", "+00:13:48.58", "",
+                     "7.011244774", "", "", "log8.273518382", "log0.187822336", "log0.187822336", "log45.76926895", "log0.007656895", "log0.007656895",
+                     "log-0.618192787", "log0.187978344", "log0.187978344", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry558 = np.array([["J2331+0740", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:31:59.13", "+07:40:09.31", "",
+                     "7.003869534", "", "", "log8.518298351", "log0.155301653", "log0.155301653", "log45.42991005", "log0.006846535", "log0.006846535",
+                     "log-1.202331649", "log0.155452495", "log0.155452495", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])                     
+
+entry559 = np.array([["J2332+0814", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:32:24.70", "+08:14:24.63", "",
+                     "7.004434586", "", "", "log8.331502231", "log0.275221386", "log0.275221386", "log45.29458234", "log0.006985114", "log0.006985114",
+                     "log-1.150863245", "log0.275310012", "log0.275310012", "", "", "", "", "", "",
+                     "", "", "", "", "", "", "", "", "",
+                     ""]])
+
+entry560 = np.array([["J2358+3000", "Wu et al. (2022)",
+                     "https://arxiv.org/pdf/2209.03987",
+                     "SDSS", "23:58:20.81", "+30:00:23.95", "",
+                     "7.012406826", "", "", "", "", "", "log45.64123757", "log0.00350379", "log0.00350379",
+                     "", "", "", "", "", "", "", "", "",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
