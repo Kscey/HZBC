@@ -13,7 +13,7 @@ Additionally, the remaining components in this repository are as follows:
 1. [dataMain.py](dataMain.py), [dataTentative.py](dataTentative.py), [dataGalaxy.py](dataGalaxy.py) contains the raw data entered into this catalog
 2. [databaseCreation.py](databaseCreation.py) contains code used to process the raw data into CSV format
 3. [functions.py](functions.py) contains functions used in databaseCreation.py
-4. [fEddCalculator.py](Tool Files/fEddCalculator) in Tool Files contains code used to recalculate any abnormal Eddington ratio values
+4. [fEddCalculator.py](./Tool Files/fEddCalculator) in Tool Files contains code used to recalculate any abnormal Eddington ratio values
 5. reviewPapers.csv in Tool Files is a database of research papers referenced in the catalog
 6. review.py in Tool Files contains raw data entered into reviewPapers.csv
 
