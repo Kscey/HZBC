@@ -4,7 +4,7 @@ The High-z Black Hole Catalog is a database containing information on over 500 s
 
 The HZBC is organised into 3 catagories:
 
-1. `[catalogMain.csv](catalogMain.csv)` contains information on **SMBHs**
+1. `[catalogMain.csv]`(catalogMain.csv) contains information on **SMBHs**
 2. [catalogTentative.csv](catalogTentative.csv) contains information on **tentative SMBHs or tentative galaxies containing SMBHs**
 3. [catalogGalaxy.csv](catalogGalaxy.csv) contains information on **galaxies containing SMBHs**
 
