@@ -1,6 +1,6 @@
 # High-z Black Hole Catalog (HZBC)
 
-The High-z Black Hole Catalog is a database containing information on over 500 supermassive blackholes (SMBHs )with redshift greater than 4 (z > 4) taken from various research papers. It also includes information on several tentative SMBHs and galaxies containing SMBHs. Most of the data is extracted directly from research papers without modifications with a few exceptions, which are detailed in the Notes section.
+The High-z Black Hole Catalog is a database containing information on over 500 supermassive blackholes (SMBHs) with redshift greater than 4 (z > 4) taken from various research papers. It also includes information on several tentative SMBHs and galaxies containing SMBHs. Most of the data is extracted directly from research papers without modifications with a few exceptions, which are detailed in the Notes section.
 
 The HZBC is organised into 3 catagories:
 
