@@ -4,7 +4,7 @@ The High-z Black Hole Catalog is a database containing information on over 500 s
 
 The HZBC is organised into 3 catagories:
 
-1. catalogMain.csv contains information on **SMBHs**
+1. [catalogMain.csv] (catalogueMain.csv) contains information on **SMBHs**
 2. catalogTentative.csv contained information on **tentative SMBHs or tentative galaxies containing SMBHs**
 3. catalogGalaxy.csv contains information on **galaxies containing SMBHs**
 
@@ -23,7 +23,7 @@ Additionally, the remaining components in this repository are as follows:
 
 mass = 10 ^ [(- M1450 - 3.459) / 2.5] — [1]
 
-2. There were errors in the papers Mazzucchelli et al. (2017) (https://iopscience.iop.org/article/10.3847/1538-4357/aa9185/pdf) and Mazzucchelli et al. (2023) (https://arxiv.org/pdf/2306.16474), where the Eddington ratios (f_Edd) were abnormal. Thus, the f_Edd were recalculated by, given BHM/mass and L_bol:
+2. There were errors in the papers [Mazzucchelli et al. (2017)] (https://iopscience.iop.org/article/10.3847/1538-4357/aa9185/pdf) and [Mazzucchelli et al. (2023)] (https://arxiv.org/pdf/2306.16474), where the Eddington ratios (f_Edd) were abnormal. Thus, the f_Edd were recalculated by, given BHM/mass and L_bol:
 
 f_Edd = L_bol / (1.3e38 × MBH) — [2]
 
