@@ -4,18 +4,18 @@ The High-z Black Hole Catalog is a database containing information on over 500 s
 
 The HZBC is organised into 3 catagories:
 
-1. `[catalogMain.csv]`(catalogMain.csv) contains information on **SMBHs**
+1. [catalogMain.csv](catalogMain.csv) contains information on **SMBHs**
 2. [catalogTentative.csv](catalogTentative.csv) contains information on **tentative SMBHs or tentative galaxies containing SMBHs**
 3. [catalogGalaxy.csv](catalogGalaxy.csv) contains information on **galaxies containing SMBHs**
 
 Additionally, the remaining components in this repository are as follows:
 
-1. dataMain.py, dataTentative.py, dataGalaxy.py contains the raw data entered into this catalog
-2. databaseCreation.py contains code used to process the raw data into `csv` format
-3. functions.py contains functions used in databaseCreation.py
-4. fEddCalculator.py in Tool Files contains code used to recalculate any abnormal Eddington ratio values
-5. reviewPapers.csv in Tool Files is a database of research papers referenced in the catalog
-6. review.py in Tool Files contains raw data entered into reviewPapers.csv
+1. `dataMain.py`, `dataTentative.py`, `dataGalaxy.py` contains the raw data entered into this catalog
+2. `databaseCreation.py` contains code used to process the raw data into `csv` format
+3. `functions.py` contains functions used in databaseCreation.py
+4. `fEddCalculator.py` in `Tool Files` contains code used to recalculate any abnormal Eddington ratio values
+5. `reviewPapers.csv` in `Tool Files` is a database of research papers referenced in the catalog
+6. `review.py` in `Tool Files` contains raw data entered into reviewPapers.csv
 
 ## Notes
 
