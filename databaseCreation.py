@@ -159,7 +159,7 @@ print(dataframe)
 
 arrListTentative = dataTentative.entry25
 
-for i in range(1, 10000):
+for i in range(26, 10000):
 
     try:
 
@@ -180,7 +180,7 @@ print(dataframe)
 
 arrListGalaxy = dataGalaxy.entry8
 
-for i in range(1, 10000):
+for i in range(9, 10000):
 
     try:
 
