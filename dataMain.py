@@ -4720,7 +4720,7 @@ entry560 = np.array([["J2358+3000", "Wu et al. (2022)",
                      "", "", "", "", "", "", "", "", "",
                      ""]])
 
-entry561 = np.array([["CAPERS-LRD-z9", "Taylor et al. (2025)",
+entry561 = np.array([["J1000+0218/CAPERS-LRD-z9", "Taylor et al. (2025)",
                      "https://iopscience.iop.org/article/10.3847/2041-8213/ade789",
                      "JWST", "10:00:32.70", "+02:18:28.91", "",
                      "9.288", "0.003", "0.003", "log7.58", "log0.15", "log0.15", "", "", "",

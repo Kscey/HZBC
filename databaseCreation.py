@@ -178,7 +178,7 @@ dataframe.to_csv("catalogTentative.csv")
 
 print(dataframe)
 
-arrListGalaxy = dataGalaxy.entry8
+arrListGalaxy = dataGalaxy.entry9
 
 for i in range(9, 10000):
 
